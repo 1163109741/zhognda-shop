@@ -1,0 +1,182 @@
+﻿body {
+}
+
+.index_boxright {
+    height: 100%;
+    width: 990px;
+    padding: 0px 00px 10px 10px;
+    float: left;
+}
+
+.Indexheadul {
+    border-right: 1px solid #dcdcdc;
+    padding: 30px 0;
+}
+
+    .Indexheadul li {
+        display: block;
+        line-height: 30px;
+        font-size: 16px;
+    }
+
+    .Indexheadul span {
+        font-size: 16px;
+        color: #e50013;
+        cursor:pointer
+    }
+
+
+.Indexhead_img img {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    margin: 50px 20px 50px 30px;
+}
+
+.Indexhead_Session {
+    text-align: left;
+    padding: 20px 0px;
+}
+
+.Indexright_Int {
+    font-size: 16px;
+}
+
+    .Indexright_Int span {
+        font-size: 30px;
+        color: #e50013;
+    }
+
+    .Indexright_Int a {
+        font-size: 14px;
+        color: #999999;
+        margin-left: 20px;
+    }
+
+.Index_line {
+    width: 1px;
+    height: 33px;
+    border-right: 1px dashed #2c2c2c;
+    position: absolute;
+    right: 0px;
+    top: 13px;
+}
+
+.Indexright_ul {
+    overflow: hidden;
+    padding:  0px;
+    width: 98%;
+    margin: 0 auto;
+}
+
+    .Indexright_ul .Indexright_name {
+        color: #666666;
+    }
+
+    .Indexright_ul .val {
+        margin-top: 10px;
+        font-size: 24px;
+        color: #e50013;
+    }
+
+    .Indexright_ul .Indexright_box {
+        cursor: pointer;
+        padding: 0;
+        position: relative;
+    }
+
+.middle {
+    padding: 10px 0px 15px 0px;
+    overflow: auto;
+}
+
+    .middle .title {
+        float: left;
+        font-size: 18px;
+        margin: 0px 10px 10px 20px;
+        height: 30px;
+        line-height: 30px;
+        color: #333;
+    }
+
+.moddle_tablke {
+    width: 970px;
+    margin: 0px 10px 10px 10px;
+    background: #fff;
+    border: 1px solid #ededed;
+    clear: both;
+}
+
+.cash_table {
+    cursor: pointer;
+    width: 97%;
+    margin: 0 auto;
+    color: #666;
+}
+
+#tab_money_deatil tr {
+    background: #fff;
+    margin: 0px 10px;
+}
+
+p {
+    margin: 3px 0px;
+}
+
+.tablist_div {
+    width: 970px;
+    margin: 0px 10px;
+    background: #fff;
+    border: 1px solid #ededed;
+    padding-bottom: 36px;
+}
+
+.newline {
+    color: #888;
+    margin: 2px 0px;
+    cursor: pointer;
+}
+
+.tablelist td {
+    text-align: left;
+    padding: 5px 0px 5px 25px;
+    height: 50px;
+}
+
+.tablist_tab {
+    cursor: pointer;
+    width: 97%;
+    margin: 0 auto;
+    color: #333;
+}
+
+.info_box {
+    padding: 10px 0px 0px 0px;
+    overflow: auto;
+}
+
+    .info_box .title {
+        float: left;
+        font-size: 18px;
+        margin: 0px 10px 10px 20px;
+        height: 30px;
+        line-height: 30px;
+        color:#333
+    }
+
+    .info_box .lif {
+        line-height: 25px;
+        color: #333333;
+        float: left;
+        margin: 0px;
+        height: 30px;
+        line-height: 30px;
+        margin-left: 15px;
+    }
+        .info_box .lif li{
+ cursor:pointer
+    }
+.cash_table p {
+    font-size: 14px;
+    color:#666
+}

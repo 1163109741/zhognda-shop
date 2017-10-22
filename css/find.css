@@ -1,0 +1,22 @@
+﻿a{text-decoration:none;color:#333; cursor: pointer;}
+.top {width: 1200px;margin: 0px auto;height: 100px;line-height: 100px;overflow:hidden;}
+.top img {vertical-align: middle;}
+.Welcome{line-height: 60px; height: 60px; color: #333333; font-size: 18px;border-left: 1px solid #c2c2c2; position: relative; left: 270px; top: -80px; padding-left: 20px; }
+.line {margin-top: 37px;height: 69px;line-height: 69px;color: #2e96ee;font-size: 24px;border-bottom: 2px solid #2e96ee;width: 1000px;margin: 0px auto;padding-left: 57px;margin-bottom: 35px;}
+.Log_in {color: #333333;font-size: 16px;float: right;padding-right: 39px;}
+	.Log_in a:first-child{padding-right: 10px; border-right: 1px solid #333333;}
+	.Log_in a:last-child{padding-left: 5px;}
+		.Log_in a:hover{color:#0099FF}
+.subject {width: 1000px;margin: 0px auto 20px;height: 400px;overflow:hidden;}
+	.subject_name {width: 81px;height: 64px;line-height: 70px;color: #333333;font-size: 16px;text-align: left;list-style-type: none;margin-left: 250px;margin-top: 20px;}
+	.subject_input {width: 301px;height: 42px;line-height: 42px;font-size: 16px;text-align: left;float: right;margin-right: 295px;margin-top: 22px;padding-left:15px;border-radius: 3px;border:1px solid #eaeaea;}
+	.input{width:200px;height:44px;border-radius: 3px;line-height:44px;background:#2e96ee;font-weight: bold;font-size: 18px;color: #fff; margin:40px auto;cursor:pointer;margin-top:215px;text-align:center;}
+	.click{width: 150px;height: 44px;line-height: 44px;font-size: 16px;text-align: left;float: right;margin-right: 0px;margin-top: 24px;border-radius: 3px;background:#dcdcdc;text-align:center;color: #fff; position:relative;left: 318px;cursor:pointer;border:none}
+	.Congratulations{color:#2e96ee;font-size: 20px;height:36px;line-height:36px;text-align:center;}
+	.fg_line{border-left: 42px solid #dddddd;border-right: 42px solid #dddddd;line-height: 2px;float:left;height: 2px;}
+	.circle {width: 35px;height: 35px;background-color: #fff;border-radius: 50%;-moz-border-radius: 50%;-webkit-border-radius: 50%;border:2px solid #dddddd;position: relative;top: -18px;text-align: center;line-height: 35px;color:#999999;font-size:24px;} 
+	.fg_line_goods{color:#999999;font-size:16px;float:left;padding-left: 22px;padding-right: 22px;width: 80px;text-align: center;}
+	.linef{ border-left-color: #f8b551; border-right-color: #f8b551;}
+		.circlef{background: #f8b551; color: #fff; border-color: #f8b551;}
+	.Congratulations img{ vertical-align:middle;margin-right:10px}
+.login-alert{width:180px;height:50px;background:#FF9900;box-shadow:0 0 10px #ddd;line-height:50px;font-size:16px;color:#fff;position:fixed;top:30px;left:50%;margin-left:-70px;text-align:center;display:none}	

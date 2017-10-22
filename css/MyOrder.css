@@ -1,0 +1,380 @@
+﻿:focus {
+    outline: none;
+}
+
+.shop_box h1 {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 0;
+    font-weight: bold;
+	margin-bottom:15px;
+}
+
+.message_box {
+    /*border-radius: 5px;*/
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+    padding: 0 5%;
+    background-repeat: no-repeat;
+}
+
+.select_box {
+    border-radius: 5px;
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+    padding: 0 5%;
+    background-repeat: no-repeat;
+}
+
+.name_header {
+    width: 100%;
+    line-height: 46px;
+    height: 40px;
+    font-size: 12px;
+    color: #666666;
+    border-bottom: solid #dcdcdc 2px;
+}
+
+.name_header1 {
+    width: 100%;
+    line-height: 46px;
+    height: 57px;
+    font-size: 14px;
+    color: #e3e3e3;
+}
+
+.address_message {
+    margin-top: 10px;
+    height: 70px;
+}
+
+.red_border {
+    border: solid #df5363 4px;
+}
+
+.select {
+    position: absolute;
+    right: -4px;
+    bottom: -4px;
+}
+
+.add_new_address {
+    border: dashed #dcdcdc 1px;
+    display: block;
+    width: 88px;
+    height: 23px;
+    border-radius: 5px;
+    margin-top: 10px;
+    text-align: center;
+    line-height: 23px;
+    font-size: 12px;
+    color: #666666;
+}
+
+    .add_new_address:hover {
+        color: #666666;
+    }
+
+.payment {
+    margin: 20px 40px 20px 0;
+    background: white;
+    border: solid #dcdcdc 1px;
+    border-radius: 5px;
+    display: block;
+    padding: 0 5px;
+    height: 58px;
+}
+
+    .payment input {
+        margin-top: 23px;
+    }
+
+.selected_box {
+    width: 12px;
+    height: 12px;
+    border: solid #dcdcdc 1px;
+    background: white;
+    float: left;
+    margin-top: 13px;
+    margin-right: 10px;
+    position: relative;
+}
+
+    .selected_box img {
+        position: absolute;
+        top: 2px;
+        left: 2px;
+    }
+
+.button {
+    width: 120px;
+    height: 40px;
+    background: #c40000;
+    color: white;
+    text-align: center;
+    line-height: 40px;
+	float:right;
+	margin-left: 20px;
+}
+
+    .button:hover {
+        background: #9b1313;
+        color: white;
+    }
+
+textarea {
+    border: none;
+    width: 100%;
+    height: 66px;
+    font-size: 14px;
+    color: #666666;
+    line-height: 18px;
+    font-family: "微软雅黑";
+    resize:none
+}
+
+.hover_box {
+    width: 281px;
+    height: 120px;
+    background-color: rgba(251,251,251,0.4);
+    position: absolute;
+    top: 0px;
+    left: 0;
+}
+
+.One {
+    background: url("../img/true.png");
+    width: 30px;
+    height: 30px;
+    color: #fff;
+    line-height: 30px;
+    border-radius: 30px;
+    text-align: center;
+    float: left;
+    position: relative;
+}
+
+.Po {
+    height: 2px;
+    background: #e50013;
+    width: 120px;
+    position: absolute;
+    top: 15px;
+    left: 30px;
+    border: none;
+}
+
+.PoT {
+    position: absolute;
+    top: 35px;
+    font-size: 12px;
+    color: #e50013;
+    width: 60px;
+    text-align: center;
+    left: -12px;
+}
+
+.product_list_Mbox {
+    border: solid 1px #e5e5e5;
+}
+
+.suppliersName {
+    font-size: 14px;
+    color: #333;
+    float: left;
+    margin-right:5px;
+}
+
+.suppliertitle {
+    background: #de2e01;
+    color: #fff;
+    width: 41px;
+    height: 16px;
+    line-height: 16px;
+    border-radius: 3px;
+    text-align: center;
+    font-size: 12px;
+    margin-top: 12px;
+    overflow:hidden;
+}
+
+.Product_TitleList {
+    width: 1200px;
+    margin: 0 auto;
+    height: 50px;
+    line-height: 50px;
+    border: 1px solid #dcdcdc;
+    color: #999999;
+    margin-bottom: 20px;
+}
+
+.IntMoney {
+    margin-top: 8px;
+    max-width: 94px;
+    height: 21px;
+    line-height: 21px;
+    background: #ff8566;
+    color: #fff;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    margin-left: 78px;
+    font-size: 12px;
+    position: relative;
+    padding-left: 10px;
+}
+
+.dian {
+    position: absolute;
+    width: 6px;
+    height: 6px;
+    border-radius: 6px;
+    background: #fff;
+    left: 8px;
+    top: 7px;
+}
+
+.ProductText {
+    line-height: 18px;
+    margin-top: 8px;
+}
+
+.IntM {
+    border: solid 1px #de2e01;
+    color: #de2e01;
+    line-height: 20px;
+    text-align: center;
+    margin-top: 23px;
+    width: 50%;
+    margin-left: 18%;
+}
+
+.Product_footer {
+    height: 98px;
+    overflow: hidden;
+    border-top: solid 1px #e5e5e5;
+    background: #f5f5f5;
+}
+
+.Product_footer_LY {
+    margin-top: 15px;
+    background: white;
+    height: 66px;
+    width: 600px;
+    margin-left: 57px;
+	float:left; 
+	color:#a0a0a0;
+	font-size:12px;
+}
+
+.Product_footer_title {
+    float: left;
+    text-align: right;
+    margin-right: 34px;
+    margin-top: 13px;
+}
+
+    .Product_footer_title p {
+        color: #999;
+        font-size: 12px;
+        margin: 0 0 6px 0;
+    }
+
+    .Product_footer_title span {
+        color: #de2e01;
+        font-size: 14px;
+        display: block;
+        margin: 0 0 6px 0;
+        font-weight:bold
+    }
+
+.paytheway {
+    clear: both;
+    overflow: hidden;
+    padding: 24px 0;
+}
+
+    .paytheway li {
+        list-style: none;
+        display: block;
+        overflow: hidden;
+    }
+
+        .paytheway li span {
+            float: left;
+            margin: 18px 0 0 17px;
+        }
+
+.Way {
+    margin-left: 30px;
+    float: left;
+    border-radius: 5px;
+    padding: 5px 8px;
+    cursor:pointer
+}
+
+.WayBorder {
+    border: solid 2px #eeeeee;
+}
+
+.WayBlueBorder {
+    border: solid 2px #e50013;
+}
+
+.Paysession {
+    overflow: hidden;
+    width: 100%;
+    background: #f5f5f5;
+}
+
+.Paysession_box {
+    float: right;
+    margin: 15px 18px 15px 0;
+    text-align: right;
+}
+
+.Paysession span {
+    font-size: 12px;
+    color: #999;
+	vertical-align:middle;
+}
+
+.Paysession h2 {
+    font-size: 24px;
+    color: #de2e01;
+    margin: 0;
+    display: inline-block;
+}
+
+.Paysession h3 {
+    font-size: 12px;
+    color: #333;
+    margin: 0;
+    display: inline-block;
+}
+
+.Paysession ul li {
+    display: block;
+    list-style: none;
+	margin:10px 0;
+}
+
+.Paysession ul li input {
+    height: 30px;
+    line-height: 30px;
+    font-size:16px
+}
+
+.newadd{
+    color: #000;
+    border: 1px solid #dcdcdc;
+    background: #f7f7f7;
+    padding: 0px 10px;
+    text-align: center;
+    width: 140px;
+    line-height: 46px;
+    font-size: 14px;
+	cursor:pointer;
+	margin-bottom:20px;
+}

@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta charset="utf-8">
+<title>用户评价</title>
+<link rel="stylesheet" href="css/css.css">
+<link rel="stylesheet" href="css/LogoBox.css">
+<link rel="stylesheet" href="css/clear.css">
+<link rel="stylesheet" href="css/vip.css">
+<script src="js/jquery-1.8.2.js"></script>
+</head>
+    
+<body>
+<div>
+	<div id="detop">
+	<div class="detop">
+		<div class="detopleft">
+			<em>姓名</em> <u>您好！欢迎来到众大商城</u> <a>退出</a>
+		</div>
+		<ul>
+			<li><a href="vip-center.html" class="detopulnow">我的众大</a></li>
+			<li><a href="my-order.html">我的订单</a></li>
+			<li><a href="shopcar.html">购物车</a></li>
+			<li class="topewm">商城二维码
+				<span class="topewmspan"><img src="img/android.png" /><em>安卓下载</em></span>
+			</li>
+			<li class="topcen">服务中心
+				<p class="topcenp">
+					<a href="after-sale-a.html">退换货原则</a>
+					<a href="shop-a.html">购物流程</a>
+					<a href="merchant-a.html">线上入住</a>
+				</p>
+			</li>
+			<li class="topger">企业服务
+				<p class="topgerp">
+					<a href="contact-us-b.html">联系我们</a>
+					<a href="shop-b.html">积分规则</a>
+				</p>
+			</li>
+		</ul>
+	</div>
+</div>
+	<div class="attlogo">
+	<p><a href="index.html"><img src="img/ZDlogo-2.png" /></a></p>
+	<span><a href="vip-center.html">会员中心</a></span>
+</div>
+	<div class="aabymiddel">
+	<div class="aabymiddel-center">
+		<ul class="middelbyul">
+			<li class="middelbyli_one">
+				<a href="vip-center.html">我的众大</a></li>
+			<li class="middelbyli_two">
+				<a>账号设置</a>
+				<ul class="attblock">
+					<li><a href="operation.html">用户基本信息</a></li>
+					<li><a href="operation-safe.html">账户安全设置</a></li>
+					<li><a href="operation-real.html">实名认证</a></li>
+					<li><a href="operation-address.html">管理收货地址</a></li>
+					<li><a href="operation-bank.html">银行卡绑定</a></li>
+				</ul>
+			</li>
+		</ul>
+	</div>
+</div>
+	<div class="body-box">
+			<div class="body-box-div">
+				<div class="box-title">
+					<div class="box-title-left">用户评价</div>
+					<div class="box-title-right">
+						<a href="index.html" class="router-link-active">
+							<span>返回个人中心首页</span></a>
+					</div>
+				</div>
+				<div class="box-body">
+					<div class="comment-left">
+						<p class="hd">商品信息</p>
+						<div class="things-info">
+							<img src="img/goods1.jpg" alt="商品图片"/>
+							<p>爱竹人条缎两件套</p>
+							<p>122.00元</p>
+						</div>
+					</div>
+					<div class="comment-right">
+						<p class="hd">发表评论</p>
+						<ul class="comment-box">
+							<li>
+								<span class="ct-tit"><i>*</i>评　　分：</span>
+								<div class="content">
+									<div id="starttwo" class="block clearfix">
+										<div  class="star_score"></div>
+										<p style="float:left;">您的评分：<span class="fenshu"></span> 分</p>
+									</div>
+								 </div>
+							</li>
+							<li>
+								<span class="ct-tit"><i>*</i>评价商品：</span>
+								<div class="textarea-box">
+									<textarea placeholder="请填写您对商品的评价~"></textarea>
+								</div>
+							</li>
+							<li>
+								<span class="ct-tit"><i>*</i>评价服务：</span>
+								<div class="textarea-box">
+									<textarea placeholder="请对商家的服务进行评价~"></textarea>
+								</div>
+							</li>
+							<li>
+								<button class="comment-btn">提交评价</button>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	<div id="footcont">
+		<h1>浙江昊丰文化发展有限公司 Copyright © 2017 zhongdamall.com  众大商城版权所有  浙ICP备17004287号</h1>
+		<div class="footbtna">
+			<a href="https://www.alipay.com/"><img src="img/footer_alipay.png" /></a>
+			<a href="https://pay.weixin.qq.com/index.php/core/home/login?return_url=%2F"><img src="img/footer_weixin_pay.png" /></a>
+			<a href="https://www.95516.com/static/union/pages/index/index.html"><img src="img/footer_bank.png" /></a>
+			<a href="http://www.abchina.com/cn/"><img src="img/agricultural_bank.png" /></a>
+			<a href="http://si.trustutn.org/info?sn=704170420027937216590&certType=1"><img src="img/footer_sureweb.png" /></a>
+			<a href="https://credit.cecdc.com/CX20170519038131800198.html"><img src="img/cert.png" /></a>
+		</div>
+	</div>
+</div>
+<script src="js/my.js"></script>
+<script type="text/javascript" src="js/startScore.js"></script>
+<script>
+scoreFun($("#startone"))
+scoreFun($("#starttwo"),{
+fen_d:22,//每一个a的宽度
+ScoreGrade:5//a的个数 10或者
+})
+</script>
+<script>
+//显示分数
+$(".show_number li p").each(function(index, element) {
+var num=$(this).attr("tip");
+var www=num*2*16;//
+$(this).css("width",www);
+$(this).parent(".atar_Show").siblings("span").text(num+"分");
+});
+</script>
+</body>
+</html>

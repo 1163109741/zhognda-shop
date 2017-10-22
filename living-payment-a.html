@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html class="uk-notouch">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<link rel="stylesheet" href="css/css.css">
+<link rel="stylesheet" href="css/LogoBox.css">
+<link rel="stylesheet" href="css/vip.css">
+<link rel="stylesheet" href="css/clear.css">
+<link rel="stylesheet" href="css/select2.css">
+<link rel="stylesheet" href="css/Refueling.css">
+<title>生活缴费-话费充值</title>
+<style>
+.aabymiddel .aabymiddel-center .living-record{ float:right; font-size:14px; color:#fff; display:block;}
+#payment_box{ width:100%; margin:0 auto;background-color:#f6f6f6; overflow:hidden;}
+#payment_box .payment_box{width: 1150px; margin: 0 auto; }
+	.payment_box .payment_left{height: 700px;margin-top:40px; width: 250px;float:left;}
+	.payment_box .payment_right{width:900px;float:left}
+.select2-container .select2-choice{ border-radius:0; border-color:#ddd; color:#000; height:40px; line-height:40px;}
+#loc_city{}
+</style>
+</head>
+
+<body>
+<div>
+	<div id="detop">
+		<div class="detop">
+			<div class="detopleft">
+				<em>姓名</em> <u>您好！欢迎来到众大商城</u> <a>退出</a>
+			</div>
+			<ul>
+				<li><a href="vip-center.html" class="detopulnow">我的众大</a></li>
+				<li><a href="my-order.html">我的订单</a></li>
+				<li><a href="shopcar.html">购物车</a></li>
+				<li class="topewm">商城二维码
+					<span class="topewmspan"><img src="img/android.png" /><em>安卓下载</em></span>
+				</li>
+				<li class="topcen">服务中心
+					<p class="topcenp">
+						<a href="after-sale-a.html">退换货原则</a>
+						<a href="shop-a.html">购物流程</a>
+						<a href="merchant-a.html">线上入住</a>
+					</p>
+				</li>
+				<li class="topger">企业服务
+					<p class="topgerp">
+						<a href="contact-us-b.html">联系我们</a>
+						<a href="shop-b.html">积分规则</a>
+					</p>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<div class="attlogo">
+		<p><a href="index.html"><img src="img/ZDlogo-2.png" /></a></p>
+		<span><a href="vip-center.html">会员中心</a></span>
+	</div>
+	<div class="aabymiddel">
+		<div class="aabymiddel-center">
+			<ul class="middelbyul">
+				<li class="middelbyli_one">
+					<a href="vip-center.html">我的众大</a></li>
+				<li class="middelbyli_two">
+					<a>账号设置</a>
+					<ul class="attblock">
+						<li><a href="operation.html">用户基本信息</a></li>
+						<li><a href="operation-safe.html">账户安全设置</a></li>
+						<li><a href="operation-real.html">实名认证</a></li>
+						<li><a href="operation-address.html">管理收货地址</a></li>
+						<li><a href="operation-bank.html">银行卡绑定</a></li>
+					</ul>
+				</li>
+			</ul>
+			<a href="payment-records.html" class="living-record">缴费记录</a>
+		</div>
+	</div>
+	<div id="payment_box">
+		<div class="payment_box">
+			<div class="payment_left">
+				<div class="Square add_color" data-id="1">
+					<span><img src="img/BlueBill.png" class="img1" /></span>
+					<span>话费充值</span>
+				</div>
+				<div class="Square" data-id="2">
+					<span><img src="img/ashRefueling.png" class="img2" /></span>
+					<span class="goods1">加油卡充值</span>
+				</div>
+				<div class="Square" data-id="3">
+					<span><img src="img/ashwater.png" class="img3" /></span>
+					<span>水电煤缴费</span>
+				</div>
+			</div>
+			<div class="payment_right">
+				<div class="subject" id="one_box">
+					<div class="Bill">话费在线充值
+						<span>品质保证 安全快捷</span>
+					</div>
+					<form style="width: 442px; margin: 0px auto; ">
+						<ul style="margin-left: -20px;">
+							<li>
+								<div class="TableWord">充值面额</div>
+								<div class="money add_A_color" style="margin-right: 9px;">
+									<input type="hidden" value="30" />30元
+									<img src="img/other/rightclick.png" style="display: block;" />
+								</div>
+								<div class="money" style="margin-right: 9px;">
+									<input type="hidden" value="50" />50元
+									<img src="img/other/rightclick.png" style="display: none;" />
+								</div>
+								<div class="money">
+									<input type="hidden" value="100" />100元
+									<img src="img/other/rightclick.png" style="display:none" />
+								</div>
+							</li>
+							<li>
+								<div class="TableWord">积分支付</div>
+								<div class="integralone">36.00</div>
+								<span class="Prompt_A">（当前可用积分
+									<span id="Useintegral">0</span>积分）
+								</span>
+							</li>
+							<li>
+								<div class="TableWord">支付密码</div>
+								<input class="input" type="password" id="paypassword" />
+							</li>
+						</ul>
+					</form>
+					<div class="Recharge" style="background: #1d84b2;" onClick="PhoneRecharge()" id="PhoneRecharge">立即充值</div>
+				</div>
+				<div class="subject" id="two_box" style="display:none;">
+					<div class="Bill">加油卡充值
+						<span>油卡在手 加油不愁</span>
+					</div>
+					<form id="addData">
+						<ul>
+							<li>
+								<div class="TableWord">充值类型</div>
+								<select class="Drop_down" id="Item">
+									<option value="1">中石化</option>
+									<option value="2" style="background: #cd6436;">中石油</option>
+								</select>
+							</li>
+							<li>
+								<div class="TableWord">充值面额</div>
+								<select class="Drop_down" id="div_Product">
+									<option value="100">100元</option>
+									<option value="500" style="background: #cd6436;">500元</option>
+									<option value="1000">1000元</option>
+								</select>
+							</li>
+							<li>
+								<div class="TableWord">充值账号</div>
+								<input class="input" placeholder="请输入缴费账号" type="text" id="Account" onKeyUp="(this.v = function () { this.value = this.value.replace(/[^0-9-]+/, &#39;&#39;); }).call(this)" onBlur="    this.v();" />
+								<span class="Prompt_B">（中石化加油卡卡号为19位）</span>
+							</li>
+							<li>
+								<input style="display:none" class="fn-hide" type="text" />
+								<input style="display:none" class="fn-hide" type="password" placeholder="请输入支付密 /码">
+								<div class="TableWord">支付密码</div>
+								<input class="input" placeholder="请输入支付密码" onFocus="this.type = &#39;password&#39;" id="StickPassword" name="POSPassword" style=" margin-right: 200px;" />
+							</li>
+							<li>
+								<div class="TableWord">积分总额</div>
+								<input class="integral" id="AllMoney" readonly value="120.00" />
+							</li>
+						</ul>
+					</form>
+					<div class="Recharge" onClick="StickPay()" id="StickPay">立即充值</div>
+				</div>
+				<div class="subject" id="three_box" style="display:none;">
+					<div class="Bill"><img src="img/one.png" style=" margin-left: 112px;" /></div>
+					<form style="width: 442px; margin: 0px auto; ">
+						<ul style="margin-left: -20px;">
+							<li style="width:100%;overflow:hidden;">
+								<div class="TableWord">缴费项目：</div>
+								<select class="Drop_down" id="sdmSearch">
+									<option value="0">水费</option>
+									<option value="1">电费</option>
+									<option value="2">煤气费</option>
+								</select>
+							</li>
+							<li style="overflow:hidden;">
+								<div class="TableWord">缴费地区：</div>
+								<div style="margin-top:33px;" class="showvince">
+									<select id="loc_province" class="select-box" style=" margin-right:8px;"></select>
+									 <select id="loc_city" class="select-box"></select>
+								</div>
+							</li>
+							<li>
+								<div class="TableWord">公共事业单位：</div>
+								<select class="Drop_down" id="div_Company" >
+									<option value="S1">宁波市自来水有限公司</option>
+									<option value="S2">宁波市奉化自来水总公司</option>
+									<option value="S3">宁海水务</option>
+									<option value="S4">余姚市第二自来水有限公司</option>
+									<option value="S5">慈溪市自来水有限公司</option>
+									<option value="S6">象山县石浦镇水务有限公司</option>
+									<option value="S7">余姚市自来水有限公司</option>
+								</select>
+							</li>
+							<li>
+								<div class="TableWord">缴费账号：</div>
+								<input class="input" placeholder="请输入缴费号码" type="text" id="PayName" />
+							</li>
+						</ul>
+					</form>
+					<input type="button" value="查询" class="Recharge" id="SearchButton" />
+				</div>
+				<div class="subject" id="four_box" style="display:none;">
+					<div class="Bill">
+						<img src="img/two.png" style=" margin-left: 112px;" />
+					</div>
+					<form style="width: 442px; margin: 0px auto; ">
+						<ul style="margin: 0px auto; width: 300px;">
+							<li>
+								<div class="Pay">缴费信息：<span id="Second_Item">&nbsp;</span></div>
+							</li>
+							<li>
+								<div class="Pay">缴费地区：
+									<span id="Province"></span>
+									<span id="City"></span>
+									<span id="county"></span>
+								</div>
+							</li>
+							<li>
+								<div class="Pay">收费单位：<span id="Company"></span></div>
+							</li>
+							<li>
+								<div class="Pay">缴费号码：<span id="div_name"></span></div>
+							</li>
+							<li>
+								<div class="Pay">户名&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;：
+									<span id="div_BillName"></span>
+								</div>
+							</li>
+							<li>
+								<div class="Pay">
+									<span id="Arrears">欠费金额：</span>
+									<span id="ArrMoney">&nbsp;300</span>
+								</div>
+							</li>
+							<li style="display:none" id="ecchange_cash">
+								<div class="Pay">充值金额：<input id="czje" onBlur="reallyig(this)" />元</div>
+							</li>
+							<li>
+								<div class="Pay">实付积分：
+									<span id="integral"></span>
+									<span>积分&nbsp;（目前可用积分<span id="in_much">0</span>积分）</span>
+								</div>
+								<div class="Pay" style="line-height:40px;height:40px;">支付密码：</div>
+								<input id="Second_password" class="input" type="password" />
+							</li>
+						</ul>
+						<div id="Pay" class="Recharge">去缴费</div>
+					</form>
+				</div>
+				<div class="subject" id="five_box" style="display:none;">
+					<div class="Bill"><img src="img/three.png" style=" margin-left: 112px;" /></div>
+					<div style="width: 442px; margin: 0px auto;text-align:center; ">
+						<div class="ok"><img src="img/Correctgreen.png" style="margin-right:10px;vertical-align:middle" />您已缴费成功！</div>
+						<div class="Recharge" onClick="ok()">完成</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="footcont">
+			<h1>浙江昊丰文化发展有限公司 Copyright © 2017 zhongdamall.com  众大商城版权所有  浙ICP备17004287号</h1>
+			<div class="footbtna">
+				<a href="https://www.alipay.com/"><img src="img/footer_alipay.png" /></a>
+				<a href="https://pay.weixin.qq.com/index.php/core/home/login?return_url=%2F"><img src="img/footer_weixin_pay.png" /></a>
+				<a href="https://www.95516.com/static/union/pages/index/index.html"><img src="img/footer_bank.png" /></a>
+				<a href="http://www.abchina.com/cn/"><img src="img/agricultural_bank.png" /></a>
+				<a href="http://si.trustutn.org/info?sn=704170420027937216590&certType=1"><img src="img/footer_sureweb.png" /></a>
+				<a href="https://credit.cecdc.com/CX20170519038131800198.html"><img src="img/cert.png" /></a>
+			</div>
+		</div>
+</div>
+<script src="js/jquery-1.8.2.js"></script>
+<script src="js/my.js"></script>
+<script src="js/area.js"></script>
+<script src="js/location.js"></script>
+<script src="js/select2.js"></script>
+<script>
+$(".subject").hide().first().show();
+$(document).ready(function(e) {
+	//三页面的切换
+	$(".Square").click(function() {
+		var id = $(this).attr("data-id");
+		$(this).addClass("add_color").siblings().removeClass("add_color");
+		if (id == 1) {
+			$("#one_box").show();
+			$("#two_box").hide();
+			$("#three_box").hide();
+			$("#four_box").hide();
+			$("#five_box").hide();
+			$(this).find("img").attr("src", "img/BlueBill.png");
+			$(this).siblings().find(".img2").attr("src", "img/ashRefueling.png");
+			$(this).siblings().find(".img3").attr("src", "img/ashwater.png");
+			$(this).siblings().find(".goods1").css("color", "#333333");
+		} else if (id == 2) {
+			$("#one_box").hide();
+			$("#two_box").show();
+			$("#three_box").hide();
+			$("#four_box").hide();
+			$("#five_box").hide();
+			$(this).find("img").attr("src", "img/BrownRefueling.png");
+			$(this).siblings().find(".img1").attr("src", "img/ashBill.png");
+			$(this).siblings().find(".img3").attr("src", "img/ashwater.png");
+			$(this).find(".goods1").css("color", "#cd6436");
+		} else {
+			
+			$("#one_box").hide();
+			$("#two_box").hide();
+			$("#three_box").show();
+			$("#four_box").hide();
+			$("#five_box").hide();
+			$(this).find("img").attr("src", "img/Bluewater.png");
+			$(this).siblings().find(".img2").attr("src", "img/ashRefueling.png");
+			$(this).siblings().find(".img1").attr("src", "img/ashBill.png");
+			$(this).siblings().find(".goods1").css("color", "#333333");
+		}
+	});
+	//话费充值面额选择效果
+	$(".money").click(function () {
+		$(this).addClass("add_A_color").find('img').show();
+		$(this).siblings('.money').removeClass("add_A_color").find('img').hide();
+		var price = parseInt($(this).text());
+		var price1 = price * 1.2;
+		$(".integralone").text(price1.toFixed(2));
+	}).eq(0).click();
+});
+</script>
+<script>
+//水电煤缴费切换
+$("#SearchButton").click(function(){
+	$("#three_box").css("display","none")
+	$("#four_box").css("display","block")
+})
+$("#Pay").click(function(){
+	$("#five_box").css("display","block")
+	$("#four_box").css("display","none")
+	$("#three_box").css("display","none")
+})
+</script>
+</body>
+</html>

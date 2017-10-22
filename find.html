@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" class="uk-notouch"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<link href="css/find.css" rel="stylesheet">
+<link href="css/css.css" rel="stylesheet">
+<title>找回密码</title>
+</head>
+<body>
+<div class="login-alert">
+	用户名或密码错误
+</div>
+<div style="width: 100%; box-shadow: 0px 5px 10px #e3e3e3;">
+	<div class="top">
+		<img src="img/Logo.png" onClick=" location.href = &#39;index.html&#39;" style="cursor: pointer;" />
+		<div class="Welcome">找回密码</div>
+	</div>
+</div>
+<div class="line">找回密码
+	<div class="Log_in">
+		<a href="login.html">登录</a>
+		<a href="register.html">注册</a>
+	</div>
+</div>
+<div style="width: 1000px; height: 169px; margin: 0px auto; ">
+	<div style="padding-top: 40px; padding-left: 320px; ">
+		<div class="fg_line " style=" border-left-color: #f8b551; border-right-color: #f8b551;"><div class="circle " style="background: #f8b551; color: #fff; border-color: #f8b551; ">1</div></div>
+		<div class="fg_line line1"><div class="circle circle1">2</div></div>
+		<div class="fg_line line2"><div class="circle circle2">3</div></div>
+	</div>
+	<div style="padding-top: 40px; padding-left: 320px; ">
+		<div class="fg_line_goods" id="Identity">验证身份</div>
+		<div class="fg_line_goods" id="Reset">重置密码</div>
+		<div class="fg_line_goods" id="OK">完成</div>
+	</div>
+</div>
+<div class="subject" id="subject1">
+	<ul class="subject_name">
+		<li>手机号码</li>
+		<li>验证码</li>
+	</ul>
+	<ul style="list-style-type: none; margin-top: -70px;">
+		<li><input placeholder="请输入11位手机号" name="Phone" id="Phone" class="subject_input" /></li>
+		<li>
+			<input type="text" placeholder="请输入验证码" class="subject_input"  style="width: 133px; margin-right: 463px;" />
+			<input type="button" id="get_btn" value="点击获取验证码" class="click" />
+		</li>
+	</ul>
+	<div class="input nexta">下一步</div>
+</div>
+<div class="subject" style="display: none; " id="subject2">
+	<ul class="subject_name">
+		<li>输入新密码</li>
+		<li>确认新密码</li>
+	</ul>
+	<ul style="list-style-type: none; margin-top: -70px;">
+		<li><input placeholder="输入您的新密码" name="LogPassword" id="PWD" class="subject_input" type="password" /></li>
+		<li><input placeholder="请再次输入密码" id="NewPWD" class="subject_input" type="password" /></li>
+	</ul>
+	<div class="input" onClick="CheckCode2()">下一步</div>
+</div>
+<div style="display:none;" id="subject3">
+	<div class="Congratulations"><img src="img/Correct.png" />恭喜您，密码重置成功，牢记您的新密码哦！</div>
+	<div class="input" style="margin-top:193px;" onClick="CheckCode3()">完成</div>
+</div>
+<div id="footcont">
+	<h1>浙江昊丰文化发展有限公司 Copyright © 2017 zhongdamall.com  众大商城版权所有  浙ICP备17004287号</h1>
+	<div class="footbtna">
+		<a href="https://www.alipay.com/"><img src="img/footer_alipay.png" /></a>
+		<a href="https://pay.weixin.qq.com/index.php/core/home/login?return_url=%2F"><img src="img/footer_weixin_pay.png" /></a>
+		<a href="https://www.95516.com/static/union/pages/index/index.html"><img src="img/footer_bank.png" /></a>
+		<a href="http://www.abchina.com/cn/"><img src="img/agricultural_bank.png" /></a>
+		<a href="http://si.trustutn.org/info?sn=704170420027937216590&certType=1"><img src="img/footer_sureweb.png" /></a>
+		<a href="https://credit.cecdc.com/CX20170519038131800198.html"><img src="img/cert.png" /></a>
+	</div>
+</div>
+<script src="js/jquery-1.js"></script>
+<script>
+$(".nexta").click(function(){
+	$(".line1").addClass("linef")
+	$(".circle1").addClass("circlef")
+	$("#subject2").css("display","block")
+	$("#subject1").css("display","none")
+})
+function CheckCode2(){
+	$(".line2").addClass("linef")
+	$(".circle2").addClass("circlef")
+	$("#subject3").css("display","block")
+	$("#subject2").css("display","none")
+}
+</script>
+<script>
+  var wait=60;  
+  function time(o) {  
+		  if (wait == 0) {  
+			  o.removeAttribute("disabled");            
+			  o.value="点击获取验证码";  
+			  wait = 60;  
+		  } else {  
+			  o.setAttribute("disabled", true);  
+			  o.value="重新发送(" + wait + ")";  
+			  wait--;  
+			  setTimeout(function() {  
+				  time(o)  
+			  },  
+			  1000)  
+		  }  
+	  } 
+  document.getElementById("get_btn").onclick=function(){time(this);}  
+</script>
+</footer>
+</body></html>

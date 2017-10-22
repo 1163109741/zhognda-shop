@@ -1,0 +1,233 @@
+﻿@charset "utf-8";
+
+* {
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+    min-width: 1200px;
+}
+
+a {
+    text-decoration: none;
+    margin: 0;
+}
+
+    a:hover {
+        text-decoration: none;
+    }
+
+li {
+    display: inline;
+    margin: 0;
+}
+
+ul {
+    margin: 0;
+}
+
+img {
+    display: inline;
+    border: none;
+}
+
+input {
+    outline: 0;
+}
+
+.bignavbox {
+    width: 100%;
+    height: 35px;
+    background-color: #f2f2f2;
+    border-bottom: solid #dddddd 1px;
+}
+
+.navbox {
+    height: 36px;
+    line-height: 35px;
+    background-color: #f2f2f2;
+    border-bottom: solid #dcdcdc 1px;
+    position: relative;
+    padding: 0;
+    min-width: 1000px;
+}
+
+.nav {
+    width: 1200px;
+    height: 35px;
+    line-height: 35px;
+    color: #a0a0a0;
+    z-index: 50;
+    padding: 0;
+    background: #f2f2f2;
+    border-bottom: solid #dcdcdc 1px;
+}
+
+.welcome {
+    float: left;
+    color: #a0a0a0;
+    font-size: 12px;
+    font-family: "宋体";
+}
+
+    .welcome label {
+        font-size: 12px;
+        font-family: "宋体";
+    }
+
+    .welcome span {
+        font-size: 12px;
+        font-family: "宋体";
+    }
+
+.navline {
+    width: 1px;
+    height: 14px;
+    background-color: #dcdcdc;
+    margin: 11px 10px;
+    float: left;
+}
+
+.color {
+    color: #e50013;
+}
+
+.service {
+    float: right;
+}
+
+#navdown {
+    padding: 0;
+}
+
+    #navdown a {
+        display: block;
+        color: #999999;
+    }
+
+.navtopdown {
+    float: left;
+    width: 68px;
+    border-top: solid #f2f2f2 1px;
+    border-left: solid #f2f2f2 1px;
+    border-right: solid #f2f2f2 1px;
+}
+
+    .navtopdown .fat {
+        font-size: 12px;
+        font-family: "宋体";
+        float: left;
+        margin-left: 5px;
+    }
+
+.ndown {
+    float: left;
+    background: url(../img/navdown.png) no-repeat;
+    width: 8px;
+    height: 4px;
+    margin: 16px 0 0 5px;
+}
+
+.up {
+    float: left;
+    background: url(../img/navup.png) no-repeat;
+    width: 8px;
+    height: 4px;
+    margin: 16px 0 0 5px;
+}
+
+#navdown li ul {
+    width: 68px;
+    overflow: hidden;
+    display: none;
+    padding: 0;
+    background-color: #fff;
+}
+
+.navtopul a {
+    font-size: 12px;
+    font-family: "宋体";
+    display: block;
+    width: 68px;
+    text-align: center;
+    overflow: hidden;
+    line-height: 27px;
+}
+
+#navdown li ul a:hover {
+    color: #c40000;
+    text-decoration: none;
+}
+
+.down:hover {
+    border: solid #dcdcdc 1px;
+    background: white;
+}
+
+.navbox a:hover {
+    color: #e50013;
+}
+
+.font {
+    font-family: "微软雅黑";
+}
+
+.app, .number_phone {
+    position: relative;
+}
+
+.app_box {
+    background: url(/lib/image/app_box.png) no-repeat;
+    width: 100px;
+    height: 120px;
+    position: absolute;
+    left: 50%;
+    margin-left: -50px;
+    top: 40px;
+    z-index: 9999;
+}
+
+    .app_box ul {
+        overflow: hidden;
+        padding-left: 0;
+        text-align: center;
+    }
+
+    .app_box li {
+        overflow: hidden;
+        display: block;
+        margin: 14px 30px 5px 10px;
+        float: left;
+        text-align: center;
+        width: 80px;
+        line-height: 20px;
+    }
+
+.four_phone {
+    background: url(/lib/image/phone_num.png) no-repeat;
+    width: 122px;
+    height: 47px;
+    position: absolute;
+    left: -70%;
+    top: 41px;
+    z-index: 9999;
+}
+
+.ling_number {
+    font-size: 14px;
+    font-family: Arial;
+    text-align: center;
+    line-height: 47px;
+}
+
+.back_syg {
+    color: #999;
+}
+
+    .back_syg:hover {
+        color: #c40000;
+    }

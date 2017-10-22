@@ -1,0 +1,68 @@
+﻿.box {
+    max-width: 1200px;
+    margin: 0px auto;
+    overflow: auto;
+}
+ol, ul {
+    padding-left: 0px;
+}
+.boxleft {
+    width: 200px;
+    height: 100%;
+    float: left;
+    margin: 20px 0px;
+    min-height: 600px;
+    background: #f7f7f7;
+}
+.boxleft ul {
+    overflow: hidden;
+    background: #f7f7f7;
+    color: #000000;
+    padding-bottom:0.8rem;
+}
+
+.boxleft li {
+    list-style: none;
+    cursor: pointer;
+    width: 100%;
+    font-size: 12px;
+}
+.menu1 {
+    font-weight: 800;
+    color: #333;
+    font-size: 16px;
+    width: 80%;
+    margin: 0 auto;
+    height: 30px;
+    line-height: 30px;
+    padding-left: 10%;
+    font-family: "微软雅黑";
+}
+
+.menu2 {
+    color: #666;
+    font-size: 14px;
+    font-family: "微软雅黑";
+}
+.menu2 img{
+    margin-right:10px;
+    margin-top:-4px;
+}
+.roll {
+    width: 5px;
+    height: 5px;
+    border-radius: 100%;
+    float: left;
+    margin-top: 7px;
+    margin-right: 7px;
+}
+
+.roll_ba {
+    background: #999999;
+}
+
+.menua {
+    padding: 1rem 0rem 0rem 2.5rem;
+    margin: 0px 10px;
+    color:#999
+}

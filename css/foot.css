@@ -1,0 +1,19 @@
+#footcont{width:100%;background:#fff;overflow:hidden;padding-top:40px}
+	.footop{width:1200px;margin:0 auto;overflow:hidden;border-bottom:1px solid #999999;padding-bottom:30px}
+		.footop li{float:left;width:170px;padding:0 65px}
+			.footop li img{float:left;}
+			.footop li p{color:#333333;padding-left:10px;float:left;text-align:left;}
+				.footop li p span{display:block;font-size: 16px;color: #333;font-weight: bold;}
+				.footop li p em{color:#666666;font-size:12px;}
+	.foot{width:100%;overflow:hidden;padding:10px 0 20px;color:#666666;}
+		.foot ul{width:1200px;overflow:hidden;margin:20px auto}
+			.foot ul li{float:left;width:85px;text-align:left;margin: 0 43px}
+				.foot li h3{font-size:16px;color:#666;border-bottom:1px solid #dcdcdc;padding:0 10px 15px;margin-bottom:22px;}
+				.foot li a{font-size:14px;line-height:30px;color:#333;display:block;width:100%;padding:0 10px}
+			.foot ul li.footwx{width:150px;font-size:14px;padding-top:6px}
+				.footwx span{display:block;text-align:center}
+				.footwx img{width:80px;margin:10px 35px}
+	#footcont h1{color: #999;font-size: 14px;letter-spacing: 1px;margin-top:30px;width:100%;text-align:center;overflow:hidden;}
+		.footbtna{width:850px;overflow:hidden;margin:15px auto;}
+			.footbtna a{display:block;float:left;margin-right:10px;}
+

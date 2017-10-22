@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" class="uk-notouch"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<link href="css/css.css" rel="stylesheet">
+<link href="css/register.css" rel="stylesheet">
+<script src="js/jquery-1.js"></script>
+<script src="js/area.js"></script>
+<title>注册</title>
+</head>
+<body>
+<div style="width: 100%; box-shadow: 0px 5px 10px #e3e3e3; ">
+	<div class="top">
+		<img src="img/Logo.png" onClick=" location.href = &#39;index.html&#39;" style="cursor: pointer;" />
+		<div class="Welcome">欢迎注册</div>
+	</div>
+</div>
+<div class="line">欢迎注册
+	<div class="Log_in">已有账号？<a href="login.html" style="color: #e60122;">去登录</a></div>
+</div>
+<div class="subject" style="height:585px;">
+	<form id="addform">
+		<ul class="subject_name">
+			<li>真实姓名</li>
+			<li>用户账号</li>
+			<li>手机号码</li>
+			<li>省市区　</li>
+			<li>设置密码</li>
+			<li>确认密码</li>
+			<li>邀请人账号</li>
+		</ul>
+		<ul style="list-style-type: none; margin-top: -70px;">
+			<li><input placeholder="您的真实姓名" id="name" type="text" class="subject_input" name="RealName" /></li>
+			<li><input placeholder="您的用户账号" id="username" type="text" class="subject_input" name="Account" /></li>
+			<li><input placeholder="建议使用常用手机" id="phone" type="text" class="subject_input" name="Phone" /></li>
+			<li>
+				<div id="Region">
+					<select id="s_province" name="s_province"></select>  
+					<select id="s_city" name="s_city" ></select>  
+					<select id="s_county" name="s_county"></select>
+					<script type="text/javascript">_init_area();</script>
+					<script type="text/javascript">
+						var Gid  = document.getElementById ;
+						var showArea = function(){
+							Gid('show').innerHTML = "<h3>省" + Gid('s_province').value + " - 市" + 	
+							Gid('s_city').value + " - 县/区" + 
+							Gid('s_county').value + "</h3>"
+													}
+						Gid('s_county').setAttribute('onchange','showArea()');
+					</script>
+				</div>
+			</li>
+			<li><input placeholder="您的登录密码" id="password" type="password" class="subject_input" min="6" maxlength="16" name="LogPassword" /></li>
+			<li><input placeholder="请再次输入密码" id="pwdagain" type="password" class="subject_input" name="SurePassword" /></li>
+			<li><input placeholder="请输入邀请人账号" id="Inviter" type="text" value="zdsc" class="subject_input" name="InviterName" /></li>
+		</ul>
+	</form>
+	<div class="login" onClick="Reson()">立即注册</div>
+</div>
+<div id="footcont">
+	<h1>浙江昊丰文化发展有限公司 Copyright © 2017 zhongdamall.com  众大商城版权所有  浙ICP备17004287号</h1>
+	<div class="footbtna">
+		<a href="https://www.alipay.com/"><img src="img/footer_alipay.png" /></a>
+		<a href="https://pay.weixin.qq.com/index.php/core/home/login?return_url=%2F"><img src="img/footer_weixin_pay.png" /></a>
+		<a href="https://www.95516.com/static/union/pages/index/index.html"><img src="img/footer_bank.png" /></a>
+		<a href="http://www.abchina.com/cn/"><img src="img/agricultural_bank.png" /></a>
+		<a href="http://si.trustutn.org/info?sn=704170420027937216590&certType=1"><img src="img/footer_sureweb.png" /></a>
+		<a href="https://credit.cecdc.com/CX20170519038131800198.html"><img src="img/cert.png" /></a>
+	</div>
+</div>
+</body>
+</html>

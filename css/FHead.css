@@ -1,0 +1,145 @@
+﻿@charset "utf-8";
+
+.head_border {
+    padding: 0;
+}
+
+.header_box {
+    margin: 0;
+    padding: 0;
+    line-height: 30px;
+    font-size: 16px;
+    min-width: 1000px;
+}
+
+.products_category {
+    background: #e50013;
+    color: white;
+    cursor: pointer;
+    position: relative;
+    padding: 0 10px 0 30px;
+    width:200px;
+}
+
+.down_more {
+    width: 18px;
+    height: 10px;
+    float: right;
+}
+
+/*.up_more {
+    background-image: url('/Lib/Image/up_more.png');
+}*/
+
+.category {
+    padding: 0;
+    margin: 0;
+}
+
+.name {
+    color: #666666;
+    padding: 0;
+    text-align: center;
+    font-family:"微软雅黑";
+    font-weight:bold
+}
+
+    .name:hover {
+        color: #e50013;
+        text-decoration: none;
+    }
+
+.bg {
+    background: #fff;
+    width: 200px;
+    height: 490px;
+    z-index: 999;
+    position: absolute;
+    top: 35px;
+    left: 0;
+}
+    .bg li:first-child {
+        border-top:none
+    }
+    .bg li {
+    height: 29px;
+    line-height: 25px;
+    font-size: 14px;
+    color: #000;
+    width: 170px;
+    padding: 10px 15px 30px 15px;
+    display: block;
+    cursor: pointer;
+    overflow: hidden;
+    border-top: 1px dashed #c2c2c2;
+}
+        .bg li:hover {
+            background:#ddd
+        }
+        .bg li>a {
+            color: #aaaaaa;
+            font-size: 12px;
+            margin: 0 0 0 10px;
+        }
+
+.wmore {
+    margin-top: 21px;
+}
+
+.tab-item {
+    position: absolute;
+    left: 200px;
+    width: 760px;
+    height: 480px;
+    border: none;
+    background: white;
+    z-index: 80;
+    opacity:0.96;
+}
+
+.bigname {
+    width: 300px;
+    height: 42px;
+    border-bottom: solid #e9e9e9 1px;
+    color: #333333;
+    line-height: 42px;
+    display: block;
+    font-size: 16px;
+}
+
+.colore {
+    color: #333333;
+    float: left;
+    height: 16px;
+    line-height: 16px;
+    padding: 0 8px;
+    margin: 4px 0;
+    font-size: 12px;
+    font-family: "微软雅黑";
+    border-left: solid #dcdcdc 1px;
+    white-space: nowrap;
+}
+
+    .colore:hover {
+        color: #C40000;
+    }
+.red {
+    background-color:#b81c22;
+}
+
+
+
+
+.red_line {
+    width: 100%;
+    height: 2px;
+    background: #4c4c4c;
+    margin-top: -2px;
+}
+    .Six_Color{
+        color:#666;
+    }
+
+    .Six_Color:hover{
+        color:#e50013;
+    }

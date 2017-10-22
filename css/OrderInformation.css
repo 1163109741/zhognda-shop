@@ -1,0 +1,413 @@
+﻿.box-right {
+    height: 100%;
+    width: 990px;
+    float: left;
+    margin-top: 20px;
+    background: #fff;
+    margin-left: 10px;
+    padding: 0px;
+    margin-bottom: 20px;
+}
+
+.state {
+    border-bottom: 2px solid #e1e1e1;
+    overflow: hidden;
+    margin: 0;
+    z-index: 66;
+    color: #333333;
+    height: 40px;
+    width: 100%;
+    padding: 0;
+}
+
+    .state li {
+        line-height: 40px;
+        float: left;
+        position: relative;
+        cursor: pointer;
+        color: #333333;
+        height: 40px;
+        width: 120px;
+        text-align: center;
+    }
+
+        .state li:first-child {
+        }
+
+        .state li a {
+            width: 100%;
+            height: 100%;
+            color: #333333;
+            text-align: center;
+            font-size: 18px;
+            border-right: 1.5px solid #999999;
+            padding-right: 15px;
+            font-family: 'Microsoft YaHei';
+        }
+
+        .state li:first-child a {
+            color: #e50013;
+        }
+
+        .state li a  span{
+            font-size: 18px;
+            font-family: 'Microsoft YaHei';
+        }
+
+.search_border {
+    width: 420px;
+    height: 30px;
+    border: solid #e1e1e1 1px;
+    margin-top: 20px;
+    margin-bottom: 18px;
+}
+
+    .search_border input {
+        width: 340px;
+        border: none;
+        margin-top: 2px;
+        height: 25px;
+        padding-left: 10px;
+        outline: 0px;
+    }
+
+    .search_border div {
+        width: 69px;
+        line-height: 30px;
+        background: #f5f5f5;
+        color: #666666;
+        cursor: pointer;
+        border-left: solid #e1e1e1 1px;
+    }
+
+.Navigation {
+    background: #f7f7f7;
+    border: 1px solid #e1e1e1;
+    margin: 0;
+    height: 30px;
+}
+
+    .Navigation li {
+        line-height: 30px;
+    }
+
+.Subject {
+    width: 100%;
+}
+
+    .Subject > div {
+        width: 988px;
+        height: 180px;
+        border: 1px solid #e1e1e1;
+        margin-top: 20px;
+    }
+
+        .Subject > div:hover > div:first-child {
+            background: #e1edfe;
+        }
+
+        .Subject > div > div:first-child {
+            width: 100%;
+            height: 40px;
+            border-bottom: 1px solid #e1e1e1;
+            background: #f7f7f7;
+        }
+
+            .Subject > div > div:first-child > span {
+                width: auto;
+                height: 30px;
+                line-height: 40px;
+                font-size: 15px;
+                font-family: 'Microsoft YaHei';
+            }
+
+                .Subject > div > div:first-child > span:nth-child(1) {
+                    margin-left: 50px;
+                }
+
+                .Subject > div > div:first-child > span:nth-child(2) {
+                    margin-left: 30px;
+                }
+
+        .Subject > div > div:last-child {
+            height: 140px;
+            width: 100%;
+            overflow: hidden;
+        }
+
+            .Subject > div > div:last-child > div {
+                float: left;
+            }
+
+                .Subject > div > div:last-child > div:nth-child(1) {
+                    height: 100%;
+                    width: 505px;
+                }
+
+                    .Subject > div > div:last-child > div:nth-child(1) > div {
+                        height: 100px;
+                        width: 256px;
+                        margin: 20px 40px;
+                    }
+
+                        .Subject > div > div:last-child > div:nth-child(1) > div > div:nth-child(1) {
+                            width: 100px;
+                            height: 100px;
+                            float: left;
+                        }
+
+                            .Subject > div > div:last-child > div:nth-child(1) > div > div:nth-child(1) > img {
+                                width: 100%;
+                                height: 100%;
+                                margin-left:20px;
+                            }
+
+                        .Subject > div > div:last-child > div:nth-child(1) > div > div:nth-child(2) {
+                            width: 135px;
+                            height: 100px;
+                            float: left;
+                            margin-left:20px;
+                        }
+
+                            .Subject > div > div:last-child > div:nth-child(1) > div > div:nth-child(2) > div {
+                                width: 300px;
+                                height: auto;
+                                margin-left: 6px;
+                                text-overflow: ellipsis;
+                                overflow: hidden;
+                            }
+
+                                .Subject > div > div:last-child > div:nth-child(1) > div > div:nth-child(2) > div:nth-child(1) {
+                                    font-size: 14px;
+                                    font-family: "Microsoft YaHei";
+                                    color: rgb(51, 51, 51);
+                                }
+
+                                .Subject > div > div:last-child > div:nth-child(1) > div > div:nth-child(2) > div:nth-child(1):hover{
+                                    cursor:pointer;
+                                }
+
+                                .Subject > div > div:last-child > div:nth-child(1) > div > div:nth-child(2) > div:nth-child(2) {
+                                    font-size: 14px;
+                                    font-family: "Microsoft YaHei";
+                                    color: rgb(153, 153, 153);
+                                }
+
+                .Subject > div > div:last-child > div:nth-child(2) {
+                    height: 100%;
+                    width: 160px;
+                    text-align: center;
+                }
+
+                    .Subject > div > div:last-child > div:nth-child(2) > div {
+                        width: 100%;
+                        height: 60px;
+                        font-size: 14px;
+                        font-family: "Microsoft YaHei";
+                        margin-top: 50px;
+                    }
+
+                .Subject > div > div:last-child > div:nth-child(3) {
+                    height: 100%;
+                    width: 159px;
+                    text-align: center;
+                    border-left: 1px solid #e1e1e1;
+                }
+
+                    .Subject > div > div:last-child > div:nth-child(3) > div {
+                        width: 100%;
+                        height: auto;
+                    }
+
+                        .Subject > div > div:last-child > div:nth-child(3) > div:first-child {
+                            width: 100%;
+                            margin-top: 40px;
+                            height: auto;
+                            font-size: 14px;
+                            font-family: "Microsoft YaHei";
+                            color: rgb(51, 51, 51);
+                        }
+
+                        .Subject > div > div:last-child > div:nth-child(3) > div:last-child {
+                            width: 100%;
+                            margin-top: 5px;
+                            height: auto;
+                            font-size: 12px;
+                            font-family: "Microsoft YaHei";
+                            color: rgb(153, 153, 153);
+                        }
+
+                .Subject > div > div:last-child > div:nth-child(4) {
+                    height: 100%;
+                    width: 159px;
+                    text-align: center;
+                    border-left: 1px solid #e1e1e1;
+                }
+
+                    .Subject > div > div:last-child > div:nth-child(4) > div {
+                        width: 100%;
+                        height: auto;
+                        text-align: center;
+                        font-size: 14px;
+                        font-family: "Microsoft YaHei";
+                        color: rgb(229, 0, 19);
+                        cursor: pointer;
+                    }
+
+                        .Subject > div > div:last-child > div:nth-child(4) > div:nth-child(1) {
+                            margin-top: 40px;
+                            font-size: 14px;
+                            font-family: "Microsoft YaHei";
+                            color: rgb(51, 51, 51);
+                        }
+
+
+/*剩余天数*/
+.Surplus {
+    font-size: 14px;
+    font-family: "Microsoft YaHei";
+    color: rgb(62, 115, 234);
+}
+
+/*填写单号*/
+.logistics {
+    margin: 0 auto;
+    width: 70%;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 2px;
+    background-color:rgb(209, 192, 165);
+    font-size: 14px;
+    font-family: "Microsoft YaHei";
+    color: rgb(255, 255, 255);
+}
+
+/*确认收货*/
+.Confirm {
+    margin: 0 auto;
+    width: 70%;
+    border-radius: 5px;
+    background-color: #e50013;
+    font-size: 14px;
+    font-family: "Microsoft YaHei";
+    color: rgb(255, 255, 255);
+}
+
+/*查看退款*/
+.ViewRefund {
+    font-size: 14px;
+    font-family: "Microsoft YaHei";
+    color: rgb(243, 186, 106);
+    line-height: 1.2;
+}
+
+/*订单详情*/
+.OrderDetails {
+    font-size: 14px;
+    font-family: "Microsoft YaHei";
+    color: rgb(62, 115, 234);
+}
+
+.OrderDetails:hover{
+    text-decoration:underline;
+}
+
+.Apply {
+    width: 300px;
+    height: 200px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+    .Apply > textarea {
+        width: 100%;
+        height: 150px;
+        resize: none;
+    }
+
+    .Apply > div {
+        width: 100px;
+        height: 30px;
+        background-color: rgb(209, 192, 165);
+        border-radius: 5px;
+        margin: 0 auto;
+        margin-top: 5px;
+        text-align: center;
+        line-height: 30px;
+        cursor: pointer;
+        color: rgb(255, 255, 255);
+    }
+
+.Reason {
+    width: 300px;
+    height: 400px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+    .Reason > div {
+        font-size: 15px;
+        font-family: 'Microsoft YaHei';
+        margin-top: 20px;
+    }
+
+    .Reason > input {
+        width: 250px;
+        height: 30px;
+        font-size: 15px;
+        font-family: 'Microsoft YaHei';
+        margin-top: 5px;
+        padding-left: 5px;
+    }
+
+    .Reason > textarea {
+        width: 100%;
+        height: 150px;
+        resize: none;
+    }
+
+    .Reason > div:first-child {
+        color: #e50013;
+        font-size: 18px;
+        font-family: 'Microsoft YaHei';
+        margin-top: 0px;
+    }
+
+.pay {
+    width: 300px;
+    height: 160px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+    .pay > label {
+        height: 30px;
+        width: auto;
+        font-size: 17px;
+        font-family: 'Microsoft YaHei';
+        line-height: 15px;
+    }
+
+        .pay > label > input {
+            height: 20px;
+            line-height: 30px;
+            cursor: pointer;
+            margin-top: 20px;
+            position: relative;
+            top: 5px;
+        }
+
+.QuantityTag {
+    position: relative;
+    width: 50px;
+    height: 25px;
+    background: #e50013;
+    z-index: 100;
+    top: -110px;
+    right: 40px;
+    font-family: 'Microsoft YaHei';
+    border: 0;
+    color: #fff;
+    text-align: center;
+    font-size: 13px;
+}

@@ -1,0 +1,156 @@
+﻿body{
+    background:#fff;
+}
+ol, ul {
+    padding-left: 0;
+}
+
+.number {
+    border-bottom: solid #c40000 2px;
+    height: 45px;
+    line-height: 60px;
+    color: #666666;
+    font-size: 16px;
+}
+
+.padding {
+    padding: 0;
+}
+
+.shop_box {
+    margin-top: 30px;
+}
+
+.input {
+    width: 16px;
+    height: 16px;
+    border: solid #cccccc 1px;
+    margin-top: 3px;
+    position: relative;
+}
+
+.name {
+    font-size: 14px;
+    font-weight: bold;
+    color: #666666;
+    margin-left: 10px;
+    margin-right: 5px;
+}
+
+    .name:hover {
+        color: #666666;
+    }
+
+.product_list_box {
+    width: 1198px;
+    border: solid #dcdcdc 1px;
+    margin-top: 15px;
+    background: #f8f8f8;
+    overflow: hidden;
+}
+
+.list_box {
+    padding: 9px;
+    overflow: hidden;
+}
+
+    .list_box img {
+        width: 80px;
+    }
+
+.input_two {
+    margin: 42px 10px 0 0;
+}
+
+.name_goods {
+    font-size: 14px;
+    color: #666666;
+    line-height: 25px;
+}
+
+.number_input {
+    width: 48px;
+    height: 24px;
+    border: solid #dcdcdc 1px;
+    text-align: center;
+    background:#fff;
+}
+
+.delete {
+    cursor: pointer;
+}
+
+.all_select {
+    width: 16px;
+    height: 16px;
+    border: solid #cccccc 1px;
+    margin-top: 13px;
+    position: relative;
+    margin-left: 9px;
+}
+
+.operation {
+    margin-top: 8px;
+}
+
+.Settlement {
+    width: 180px;
+    text-align: center;
+    background: #de2e01;
+    color: white;
+    font-size:24px;
+}
+
+    .Settlement:hover {
+        color: white;
+        background: #ec4419;
+    }
+
+.cart_none {
+    /*position: relative;
+    left: 50%;
+    margin-left: -127px;
+    margin-top: 30px;
+    display: none;*/
+}
+
+
+
+.cart-empty-pic {
+    height: 110px;
+    margin-top: 33px;
+    background: rgba(0, 0, 0, 0) url("../Image/cart-empty-icon.png") no-repeat scroll center center / 93px 77px !important;
+}
+
+.empty-warning-text {
+    color: #999;
+    font-size: 14px;
+    line-height: 18px;
+    min-height: 50px;
+    text-align: center;
+}
+
+
+.empty-btn-wrapper {
+    margin-top: 15px;
+    text-align: center;
+}
+
+.btn-jd-darkred {
+    background: #c00000 none repeat scroll 0 0;
+    border-radius: 3px;
+    color: #fff;
+    display: inline-block;
+    line-height: 1.2em;
+    padding: 4px 12px;
+}
+
+    .btn-jd-red.btn-large, .btn-jd-gray.btn-large, .btn-jd-darkred.btn-large {
+        font-size: 14px;
+        padding: 12px 40px;
+    }
+
+a:hover {
+    color: white;
+    text-decoration: none;
+}

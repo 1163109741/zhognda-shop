@@ -1,0 +1,1 @@
+﻿(function(a){a.getUrlParam=function(b){var c=new RegExp("(^|&)"+b+"=([^&]*)(&|$)");var d=window.location.search.substr(1).match(c);if(d!=null){return unescape(d[2])}return null}})(jQuery);

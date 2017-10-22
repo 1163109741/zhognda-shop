@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" class="uk-notouch">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>常见问题</title>
+<link rel="stylesheet" href="css/css.css">
+<link rel="stylesheet" href="css/LogoBox.css">
+<link rel="stylesheet" href="css/CompanyProfile.css">
+<script type="text/javascript" src="js/jquery-1.8.2.js"></script>
+<script type="text/javascript" src="js/my.js"></script>
+</head>
+  
+<body style="background:#f6f6f6">
+<div id="detop">
+	<div class="detop">
+		<div class="detopleft">
+			<em>姓名</em> <u>您好！欢迎来到众大商城</u> <a href="login.html">请登录</a> | <a href="register.html">免费注册</a><a>退出</a>
+		</div>
+		<ul>
+			<li><a href="vip-center.html" class="detopulnow">我的众大</a></li>
+			<li><a href="my-order.html">我的订单</a></li>
+			<li><a href="shopcar.html">购物车</a></li>
+			<li class="topewm">商城二维码
+				<span class="topewmspan"><img src="img/android.png" /><em>安卓下载</em></span>
+			</li>
+			<li class="topcen">服务中心
+				<p class="topcenp">
+					<a href="after-sale-a.html">退换货原则</a>
+					<a href="shop-a.html">购物流程</a>
+					<a href="merchant-a.html">线上入住</a>
+				</p>
+			</li>
+			<li class="topger">企业服务
+				<p class="topgerp">
+					<a href="contact-us-b.html">联系我们</a>
+					<a href="shop-b.html">积分规则</a>
+				</p>
+			</li>
+		</ul>
+	</div>
+</div>
+<div class="nonuceaf">
+	<div class="uk-container uk-container-center border ukcenfc">
+		<ul class="uk-grid logo_box">
+			<li class="logo_box logo-img">
+				<a href="index.html"><img src="img/zdlogo.png" /> </a> 
+			</li>
+			<li class="uk-width-1-2">
+				<div class="font search_border">
+					<div class="search-type">
+						<ul class="triggers">
+							<li class="selected">宝贝</li>
+							<li class="tigger" style="display:none">店铺</li>
+						</ul>
+						<img src="img/icond.png" />
+					</div>
+					<div class="search-input">
+						<input placeholder="积分换购活动" id="FiSearch">
+						<div class="searchBysearch" onClick="searchcar()">
+							<img src="img/search-icon.png" />
+						</div>
+					</div>
+					<div class="hotsearch">
+						<a href="goods-search.html">羽绒服</a>
+						<a href="goods-search.html">女鞋</a>
+						<a href="goods-search.html">男装</a>
+						<a href="goods-search.html">女包</a>
+						<a href="goods-search.html">面膜</a>
+						<a href="goods-search.html">四件套</a>
+						<a href="goods-search.html">靴子</a>
+					</div>
+				</div>
+			</li>
+			<li class="uk-width-2-10 service gold uk-text-center" style="margin-left: 28px;">
+				<a href="shopcar.html" class="shopcar">
+					<img src="img/shopccar-1.png">
+					<span>我的购物车</span>
+					<div class="shopnum div_total_top">1</div>
+				</a>
+			</li>
+		</ul>
+	</div>
+</div>
+<div class="uk-block">
+	<div class="uk-container uk-container-center padding font min">
+		<ul class="nav_content">
+			<li><a href="index.html"><b>众大商城</b></a></li>
+			<li><a href="business-circle.html"><b>联盟商圈</b></a></li>
+		</ul>
+	</div>
+</div>
+<div style="overflow:hidden;max-width:1200px;margin:0 auto;">
+	<div class="select_box">
+		<ul class="uk-nav" id="MenuList">
+			<li class="uk-parent">
+				<a class="font project">关于我们</a>
+				<ul class="uk-nav-sub">
+					<li>
+						<a href="contact-us-a.html" class="name">
+							<div class="current_roll"></div>
+							<span>公司简介</span>
+						</a>
+					</li>
+					<li>
+						<a href="contact-us-b.html" class="name">
+							<div class="current_roll"></div>
+							<span>联系我们</span>
+						</a>
+					</li>
+					<li>
+						<a href="contact-us-c.html" class="name">
+							<div class="current_roll"></div>
+							<span>诚聘英才</span>
+						</a>
+					</li>
+				</ul>
+			</li>
+			<li class="uk-parent">
+				<a class="font project">我要购物</a>
+				<ul class="uk-nav-sub">
+					<li>
+						<a href="shop-a.html" class="name">
+							<div class="current_roll"></div>
+							<span>购物流程</span>
+						</a>
+					</li>
+					<li>
+						<a href="shop-b.html" class="name">
+							<div class="current_roll"></div>
+							<span>积分规则</span>
+						</a>
+					</li>
+					<li>
+						<a href="shop-c.html" class="name">
+							<div class="current_roll"></div>
+							<span>关于发票</span>
+						</a>
+					</li>
+				</ul>
+			</li>
+			<li class="uk-parent">
+				<a class="font project">商家入驻</a>
+				<ul class="uk-nav-sub">
+					<li>
+						<a href="merchant-a.html" class="name">
+							<div class="current_roll"></div>
+							<span>线上入驻</span>
+						</a>
+					</li>
+					<li>
+						<a href="merchant-b.html" class="name">
+							<div class="current_roll"></div>
+							<span>商家政策</span>
+						</a>
+					</li>
+					<li>
+						<a href="merchant-c.html" class="name">
+							<div class="current_roll"></div>
+							<span>常见问题</span>
+						</a>
+					</li>
+				</ul>
+			</li>
+			<li class="uk-parent">
+				<a class="font project">付款方式</a>
+				<ul class="uk-nav-sub">
+					<li>
+						<a href="pay-a.html" class="name">
+							<div class="current_roll"></div>
+							<span>积分兑换</span>
+						</a>
+					</li>
+					<li>
+						<a href="pay-b.html" class="name">
+							<div class="current_roll"></div>
+							<span>账号余额</span>
+						</a>
+					</li>
+				</ul>
+			</li>
+			<li class="uk-parent">
+				<a class="font project">关于配送</a>
+				<ul class="uk-nav-sub">
+					<li>
+						<a href="sign.html" class="name">
+							<div class="current_roll"></div>
+							<span>如何签收</span>
+						</a>
+					</li>
+				</ul>
+			</li>
+			<li class="uk-parent">
+				<a class="font project">售后服务</a>
+				<ul class="uk-nav-sub">
+					<li>
+						<a href="after-sale-a.html" class="name">
+							<div class="current_roll"></div>
+							<span>退换货原则</span>
+						</a>
+					</li>
+					<li>
+						<a href="after-sale-b.html" class="name">
+							<div class="current_roll"></div>
+							<span>如何退款</span></a>
+					</li>
+					<li>
+						<a href="after-sale-c.html" class="name">
+							<div class="current_roll"></div>
+							<span>退换货流程</span>
+						</a>
+					</li>
+				</ul>
+			</li>
+			<li class="uk-parent">
+				<a class="project">购物保障</a>
+				<ul class="uk-nav-sub">
+					<li>
+						<a href="safe-a.html" class="name">
+							<div class="current_roll"></div>
+							<span>正品保证</span>
+						</a>
+					</li>
+					<li>
+						<a href="safe-b.html" class="name">
+							<div class="current_roll"></div>
+							<span>用户协议</span>
+						</a>
+					</li>
+					<li>
+						<a href="safe-c.html" class="name">
+							<div class="current_roll"></div>
+							<span>隐私保护</span>
+						</a>
+					</li>
+					<li>
+						<a href="safe-d.html" class="name">
+							<div class="current_roll"></div>
+							<span>免责声明</span>
+						</a>
+					</li>
+				</ul>
+			</li>
+		</ul>
+	</div>
+	<div class="company_box company-cont" id="Notice">
+		<h1>常见问题</h1>
+		<h2>1：如何注册成为众大用户？</h2>
+		<p>A：登录众大网站(www.zhongdamall.com)，在首页顶部位置点击“免费注册”，详细阅读“用户协议”，确认接受“用户协议”相关条款后，输入相关真实信息，即可完成注册。</p>
+		<h2>2：如何获得积分？</h2>
+		<p>A：众大用户在众大线上商城或者众大线下实体联盟商家处，次日即可登录众大商城网址的用户中心，查看相应的积分。</p>
+		<h2>3：积分的作用？</h2>
+		<p>众大用户消费所得积分，用于众大线上商城或线下实体联盟商家兑换自己所需商品。</p>
+		<h2>4：如何兑换商品？</h2>
+		<p>A： 在众大线上商城的兑换步骤：</p>
+		<p>&nbsp;①、用户登录众大商城网址；</p>
+		<p>&nbsp;②、用所持有积分进行商品兑换；</p>
+		<p>&nbsp;③、商家发货，并确认发货；</p>
+		<p>&nbsp;④、用户收货，并确认产品无质量问题后，点击确认收货。</p>
+		<p>B： 在众大线下实体联盟商家兑换步骤：</p>
+		<p>&nbsp;①、搜索所在区域的联盟商家；</p>
+		<p>&nbsp;②、在本地商家处用所持有的积分进行商品兑换；</p>
+		<p>&nbsp;③、兑换商品价值高于所持有的积分，用户只需补充高出部分的金额进行兑换，高出的现金支付部分可作为累积消费记录，可获得众大所赠送的积分；</p>
+		<p>&nbsp;④、用户进行兑换，提交订单后视为兑换生效并取走相应的商品；</p>
+		<p>&nbsp;⑤、商家审核确定后即已兑换成功。</p>
+		<h2>5：登陆密码忘了，怎么办？</h2>
+		<p>A：用户在众大首页上，点击"用户登录"，再点击"忘记密码"，就可以通过邮箱或手机绑定的方式来找回，也可致电公司客服0574-87085545咨询解决。</p>
+		<h2>6：积分的使用是否有地点限制，时间限制？</h2>
+		<p>A：用户在众大商城消费所得积分，在众大线上商城及其线下全国所有地面实体联盟商家使用，持续有效。</p>
+		<h2>7：不同帐户积分可以合并吗？</h2>
+		<p>A：不同帐户的积分不可以进行合并。</p>
+		<h2>8：在哪里能查看到我的积分？</h2>
+		<p>A：您可以登录用户中心，在“我的众大”查到数据。</p>
+		<h2>9：在网上商城购买商品所获得的积分，是否能在线下使用？</h2>
+		<p>A：在众大网上商城购买商品所得的积分，可在众大网上商城或线下地面实体联盟商家兑换商品。</p>
+		<h2>10：如果用户在没有收到商品的情况下，点击了“确认收货”后又退货了，或者用户用积分兑换后退货，相关积分怎么处理？</h2>
+		<p>A：若因商家没有及时发货或因商品缺货导致用户退货，用户所支付现金或积分予以全部退回到用户账号；</p>
+		<p>B：若因商品质量问题导致用户退货，积分及邮寄费用予以全部退回到用户账号，邮寄费用由商家承担；</p>
+		<p>C：若因用户个人原因而导致退货的，相关积分予以退回给用户，因此产生的邮寄费用将由用户承担。</p>
+		<p>D:在没有收到货的又点击确认收货的情况下退货，用户因此消费数据所得积分将被收回。</p>
+		<p>（退货需要注明退货原因，返件注明商品的一些基本信息。例如尺码，然后写明自己要换的尺码，注明是在众大商城购买的商品，以及自己的众大用户号，并附上商家发货的邮费。）</p>
+		<h2>11：用户下订单后，购买的商品多久能送到？</h2>
+		<p>A：在商品有现货的常规情况下，在2—7个工作日内能收到商品；</p>
+		<p>B：农村或者偏远地区，可能要稍长一点。</p>
+		<h2>12：用户若选择在线支付，需要在多久之内付款？付款后多久能发货呢？</h2>
+		<p>A：在线支付订单，须在24小时内进行付款。如24小时内未付款，订单会被自动取消；支付完成后，1—2工作日确认，安排配送。</p>
+		<h2>13：众大出售的商品有发票吗？</h2>
+		<p>A：众大商城所出售商品均可提供正规发票，使用积分兑换产品的，不可申请开具发票。</p>
+	</div>
+</div>
+<div id="footcont">
+	<div class="footop">
+		<ul>
+			<li><img src="img/bottom1.png" /><p><span>正品保证</span><em>正品行货 放心选购</em></p></li>
+			<li><img src="img/bottom2.png" /><p><span>闪电发货</span><em>极速发货 减少等待</em></p></li>
+			<li><img src="img/bottom3.png" /><p><span>售后无忧</span><em>7天无理由退换货</em></p></li>
+			<li><img src="img/bottom4.png" /><p><span>准时到达</span><em>极速物流 极速到达</em></p></li>
+		</ul>
+	</div>
+	<div class="foot">
+		<ul>	
+			<li>
+				<h3>关于我们</h3>
+				<a href="contact-us-a.html">公司简介</a>
+				<a href="contact-us-b.html">联系我们</a>
+				<a href="contact-us-c.html">诚聘英才</a>
+			</li>
+			<li>
+				<h3>我要购物</h3>
+				<a href="shop-a.html">购物流程</a>
+				<a href="shop-b.html">积分规则</a>
+				<a href="shop-c.html">关于发票</a>
+			</li>
+			<li>
+				<h3>商家入驻</h3>
+				<a href="merchant-a.html">线上入驻</a>
+				<a href="merchant-b.html">商家政策</a>
+				<a href="merchant-c.html">常见问题</a>
+			</li>
+			<li>
+				<h3>付款方式</h3>
+				<a href="pay-a.html">积分兑换</a>
+				<a href="pay-b.html">账号余额</a>
+			</li>
+			<li>
+				<h3>关于配送</h3>
+				<a href="sign.html">如何签收</a>
+			</li>
+			<li>
+				<h3>售后服务</h3>
+				<a href="after-sale-a.html">退换货原则</a>
+				<a href="after-sale-b.html">如何退款</a>
+				<a href="after-sale-c.html">退换货流程</a>
+			</li>
+			<li>
+				<h3>购物保障</h3>
+				<a href="safe-a.html">正品保证</a>
+				<a href="safe-b.html">用户协议</a>
+				<a href="safe-c.html">隐私保护</a>
+				<a href="safe-d.html">免责声明</a>
+			</li>
+		</ul>
+	</div>
+	<h1>浙江昊丰文化发展有限公司 Copyright © 2017 zhongdamall.com  众大商城版权所有  浙ICP备17004287号</h1>
+	<div class="footbtna">
+		<a href="https://www.alipay.com/"><img src="img/footer_alipay.png" /></a>
+		<a href="https://pay.weixin.qq.com/index.php/core/home/login?return_url=%2F"><img src="img/footer_weixin_pay.png" /></a>
+		<a href="https://www.95516.com/static/union/pages/index/index.html"><img src="img/footer_bank.png" /></a>
+		<a href="http://www.abchina.com/cn/"><img src="img/agricultural_bank.png" /></a>
+		<a href="http://si.trustutn.org/info?sn=704170420027937216590&certType=1"><img src="img/footer_sureweb.png" /></a>
+		<a href="https://credit.cecdc.com/CX20170519038131800198.html"><img src="img/cert.png" /></a>
+	</div>
+</div>
+<script>
+//宝贝店铺切换
+	$(".triggers").mouseover(function(){
+		$(".tigger").css("display","block")
+	})
+	$(".triggers").mouseout(function(){
+		$(".tigger").css("display","none")
+	})
+	$(".tigger").toggle(function(){
+		$(this).text("宝贝");
+		$(".selected").text("店铺");
+	},function(){
+		$(this).text("店铺");
+		$(".selected").text("宝贝");
+	});				
+</script>
+</body>
+</html>

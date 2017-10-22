@@ -1,0 +1,67 @@
+﻿body {
+}
+* {
+    padding: 0px;
+    margin: 0px;
+    font-size: 14px;
+    font-family: "Microsoft Yahei";
+}
+.head {
+    height: 35px;
+    line-height: 35px;
+    color: #999999;
+}
+.column {
+    height: 80px;
+    line-height: 80px;
+    background-image:url('/Lib/Image/headmenuBG.png');
+    color: #fff;
+}
+.headbox {
+    max-width: 1200px;
+    margin: 0px auto;
+}
+.box {
+    max-width: 1200px;
+    margin: 0px auto;
+    overflow: auto;
+}
+
+.headleft {
+    float: left;
+}
+
+.headright {
+    float: right;
+    text-align: right;
+}
+
+.headleft li {
+    height: 100%;
+    float: left;
+    list-style: none;
+    font-size: 16px;
+    width: 125px;
+    text-align: center;
+
+}
+
+.head li {
+    float: left;
+    cursor: pointer;
+        position:relative
+}
+.back_shop_bs {
+    width: 140px;
+    height: 30px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    color: #fff;
+    line-height: 30px;
+    margin-top: 24px;
+    font-size: 20px;
+    cursor: pointer;
+}
+ul {
+    padding: 0px;
+}

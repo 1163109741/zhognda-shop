@@ -1,0 +1,57 @@
+﻿body {font-family: 'Microsoft YaHei';font-family: "微软雅黑";}
+.uk-grid > * {padding: 0;}
+.uk-grid { margin: 0;}
+.Title {background: #fff;height: 58px;border-bottom: 2px solid #333333;}
+.uk-slideshow li {position: absolute;left: 50%;margin-left: -960px;width: 1920px;height: 500px;}
+.namebox {width: 1200px;margin: auto;line-height: 58px;padding: 0;}
+.bit {color: #333333;padding: 0;text-align: center;font-weight: bold;}
+	.bit:hover {color: #740007;text-decoration: none;}
+.weak {font-size: 24px;margin: 0;padding: 0;float: left;}
+	.weak li {padding: 0;text-align: center;}
+.banner {height: 500px;min-width: 1200px;width: 100%;}
+	.banner_img {height: 500px;position: relative;overflow: hidden;width: auto;}
+.Selected {width: 1200px;margin: auto;}
+.top {font-size: 30px;font-weight: bold;text-align: center;color: #333333;margin-top: 45px;margin-bottom:10px}
+	.top img {padding-right: 20px;}
+	.uk_img img {width: 100%;position: absolute;top: 20px;bottom: 20px;left: 6px;right: 6px;width: 288px;}
+.backgroundmodel-down {transform: translate3d(0,0px,0);transition: all 1s;}
+.backgroundmodel-active {transform: translate3d(0,-5px,0);transition: all 1s;}
+.uk_img {padding: 20px 6px;cursor: pointer;position: relative;overflow: hidden;}
+.ukbox {width: 1200px;margin: auto;}
+.uk-width-1-5 {border: 1px solid #e3e3e3;}
+.marleft {margin-left: -1px;cursor: pointer;}
+	.marleft > div img {height: 225px;width: 100%;}
+		.marleft > div img:hover {opacity: 0.9;}
+	.marleft:hover {border: 1px solid #d22147;z-index: 999;}
+.middlefont {font-size: 14px;font-weight: bold;margin: 0;padding: 7px 5px;}
+	.middlefont:hover {color: #d22147;}
+.smallfont {font-size: 12px;margin: 0;padding: 0 5px;}
+	.smallfont:hover{color:#72baf7;}
+.goldadd {padding: 15px 5px;}
+.long {overflow: hidden;text-overflow: ellipsis;display: -webkit-box;-webkit-line-clamp: 2;-webkit-box-orient: vertical;height: 37px;}
+	.long_1{overflow: hidden;text-overflow: ellipsis;display: -webkit-box;-webkit-line-clamp: 1;-webkit-box-orient: vertical;height: 20px;}
+.redfont {color: #d22147;font-size: 14px;}
+.addcar {width: 90px;background: #d22147;color: #fff;text-align: center;line-height: 33px;float: right;cursor: pointer;}
+.uk-width-1-2 {line-height: 33px;}
+.category {width: 100%;height: 70px;background-image: url('../img/category.png');}
+	.category div {padding: 0 25px;line-height: 70px;}
+.totalblod {font-weight: bold;font-size: 30px;color: #333333;}
+.more {font-size: 16px;float: right;cursor: pointer;}
+	.more:hover {color: #d22147;}
+.uk-width-1-3 img {width: 100%;}
+.category_in {padding: 20px 6px 10px 6px;cursor: pointer;}
+	.category_in p {margin: 0;overflow: hidden;white-space: nowrap;text-overflow: ellipsis;text-align: center;margin-top:5px}
+	.category_in img {height: 114px;}
+		.category_in > img:hover {opacity: 0.5;}
+.fontred {color: #d22147;font-size: 14px;text-align: center;font-weight:bold;}
+.think {width: 100%;text-align: center;line-height: 44px;font-size: 24px;font-weight: bold;color: #333;}
+	.think img {padding-right: 8px;margin-top: -4px;}
+.box_grid {margin: 0;}
+.think_box {padding: 15px;border: 1px solid #e3e3e3;}
+	.think_box p {margin: 0;}
+	.think_box:hover {border: 1px solid #d22147;}
+	.think_in img {width: 100%;height: 198px;}
+	.thinkred {font-size: 16px;color: #d22147;font-weight: bold;}
+	.thinkfont {margin: 15px 0;height: 40px;}
+		.thinkfont:hover{text-decoration: underline;}
+	.ThinkBox {padding: 0 5px;border: none;cursor: pointer;margin-top: 10px;}

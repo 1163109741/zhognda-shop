@@ -1,0 +1,356 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>我的购物车</title>
+<link rel="stylesheet" href="css/css.css">
+<link rel="stylesheet" href="css/indent.css">
+<script src="js/jquery-1.js"></script>
+<script type="text/javascript" src="js/pageGroup.js"></script>
+</head>
+<body>
+<div id="detop">
+	<div class="detop">
+		<div class="detopleft">
+			<em>姓名</em> <u>您好！欢迎来到众大商城</u> <a href="login.html">请登录</a> | <a href="register.html">免费注册</a><a>退出</a>
+		</div>
+		<ul>
+			<li><a href="vip-center.html" class="detopulnow">我的众大</a></li>
+			<li><a href="my-order.html">我的订单</a></li>
+			<li><a href="shopcar.html">购物车</a></li>
+			<li class="topewm">商城二维码
+				<span class="topewmspan"><img src="img/android.png" /><em>安卓下载</em></span>
+			</li>
+			<li class="topcen">服务中心
+				<p class="topcenp">
+					<a href="after-sale-a.html">退换货原则</a>
+					<a href="shop-a.html">购物流程</a>
+					<a href="merchant-a.html">线上入住</a>
+				</p>
+			</li>
+			<li class="topger">企业服务
+				<p class="topgerp">
+					<a href="contact-us-b.html">联系我们</a>
+					<a href="shop-b.html">积分规则</a>
+				</p>
+			</li>
+		</ul>
+	</div>
+</div>
+<!--上边-->
+<div class="uk-width">
+	<div class="uk-width-1-2left"> 
+		<a href="index.html"> <img src="img/zdlogo.png" width="205" /> </a> 
+	</div>
+	<div class="uk-width-1-2right" >
+		<div class="circle" > 
+			<img src="img/true.png">
+			<p class="typeface" style="color: #e50013"> 我的购物车 </p>
+		</div>
+		<div class="circle" style="margin-left: 130px" > 2
+			<hr class="Line1">
+			<p class="typeface"> 确认订单 </p>
+			<hr class="Line2">
+		</div>
+		<div class="circle" style="margin-left: 130px" > 3
+			<p class="typeface"> 支付收货 </p>
+		</div>
+	</div>
+</div>
+<div class="cart_info">
+	<ul class="cartfo">
+		<li style="">商品信息</li>
+		<li style="margin:0 0 0 350px">单价</li>
+		<li>数量</li>
+		<li>小计</li>
+		<li>操作</li>
+	</ul>
+	<div class="detail_table">
+		<div class="news">
+			<div class="one-shop">
+				<p class="carhead"><input type="checkbox" class="goods-check ShopCheck"><em>全选</em><span> 欧时力ochirly女装专场</span></p>
+				<table class="one-goods">
+					<tbody>
+						<tr>
+							<td class="product_item">
+								<div class="product_small">
+									<label for=""><input type="checkbox" class="goods-check GoodsCheck"></label>
+									<div class="small-img">
+										<a href="details.html"><p><img src="img/goods/0facbd63f4f848ce949630a92639ac20.png" /></p></a>
+									</div>
+									<div class="product_title">
+										<a href="details.html">aa烟花烫LH2017春装新款女装气质简约</a>
+										<p>规格:<em>34cmX110cm</em>;克重<i>:168g</i>;成分:<u>竹纤维</u>;颜色:<span>橘红</span>;内含:<strong>运动毛巾X2/盒</strong></p>
+									</div>
+								</div>
+							</td>
+							<td class="price_item">
+								<strong>积分价：<i>1398</i></strong>
+							</td>
+							<td class="number quantity_item">
+								<div class="cartbtn">
+									<span class="min">-</span>
+									<input id="text_box" name="" type="text" value="1" />
+									<span class="plus">+</span>
+								</div>		
+							</td>
+							<td class="total_item">积分价：<i>1158</i></td>
+							<td class="action_item"><a>删除</a></td>
+						</tr>
+					</tbody>
+				</table>
+				<table class="one-goods">
+					<tbody>
+						<tr>
+							<td class="product_item">
+								<div class="product_small">
+									<label for=""><input type="checkbox" class="goods-check GoodsCheck"></label>
+									<div class="small-img">
+										<a href="details.html"><p><img src="img/goods/1aeae1e21aac4c82a4e4d07ccded80e4.jpg.200x200.jpg" /></p></a>
+									</div>
+									<div class="product_title">
+										<a href="details.html">烟花烫LH2017春装新款女装气质简约修身显瘦七分袖连衣裙 花央</a>
+										<p>规格:<em>34cmX110cm</em>;克重<i>:168g</i>;成分:<u>竹纤维</u>;颜色:<span>橘红</span>;内含:<strong>运动毛巾X2/盒</strong></p>
+									</div>
+								</div>
+							</td>
+							<td class="price_item">
+								<strong>积分价：<i>1158</i></strong>
+							</td>
+							<td class="number quantity_item">
+								<div class="cartbtn">
+									<span class="min">-</span>
+									<input id="text_box" name="" type="text" value="1" />
+									<span class="plus">+</span>
+								</div>		
+							</td>
+							<td class="total_item">积分价：<i>1158</i></td>
+							<td class="action_item"><a>删除</a></td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+			<div class="one-shop">
+				<p class="carhead"><input type="checkbox" class="goods-check ShopCheck"><em>全选</em><span> 浙江安吉纤云纺织品科技有限公司</span></p>
+				<table class="one-goods">
+					<tbody>
+						<tr>
+							<td class="product_item">
+								<div class="product_small">
+									<label for=""><input type="checkbox" class="goods-check GoodsCheck"></label>
+									<div class="small-img">
+										<a href="details.html"><p><img src="img/goods/1aeae1e21aac4c82a4e4d07ccded80e4.jpg.200x200.jpg" /></p></a>
+									</div>
+									<div class="product_title">
+										<a href="details.html">烟花烫LH2017春装新款女装气质简约修身显瘦七分袖连衣裙 花央</a>
+									</div>
+								</div>
+							</td>
+							<td class="price_item">
+								<strong>积分价：<i>1158</i></strong>
+							</td>
+							<td class="number quantity_item">
+								<div class="cartbtn">
+									<span class="min">-</span>
+									<input id="text_box" name="" type="text" value="1" />
+									<span class="plus">+</span>
+								</div>		
+							</td>
+							<td class="total_item">积分价：<i>1158</i></td>
+							<td class="action_item"><a>删除</a></td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		</div>
+		<input type="hidden" id="start_page" value="0">
+		<input type="hidden" id="current_page" value="0">
+		<input type="hidden" id="show_per_page" value="10">
+		<input type="hidden" id="end_page" value="10">
+	</div>
+	<div id="pageGro" class="cb">
+		<div class="pagestart">首页</div>
+		<div class="pageUp">上一页</div>
+		<div class="pageList"><ul><li class="on">1</li><li>2</li><li>3</li><li>4</li><li>5</li></ul></div>
+		<div class="pageDown">下一页</div>
+		<div class="pageend">尾页</div>
+	</div>
+	<div class="choose_box">
+		<p><input type="checkbox" class="goods-check" id="AllCheck">选择全部商品</p>
+		<ul class="choose_inner"><li><a href="">删除</a></li></ul>
+		<div class="pay_money">
+			<span>已选种商品<em>4</em>件</span>
+			<span>应付积分总计:<i>0.00</i></span> 
+			<a href="submit-orders.html">立即结算</a>
+		</div>
+	</div>            
+</div>
+<div class="dakuabg">
+	<div class="subtitle">
+		<p></p>
+    	<span>猜你喜欢</span>
+		<p></p>
+    </div>
+	<ul class="paixu">
+		<li class="uk-width-1-4"> 
+			<a class="neiju"> 
+				<img src="img/goods/175f6a21a47f483bb979506f45423065.jpg.400x400.jpg" />
+				<p> 韩国爱茉莉 绿吕洗发水护发乳0ml </p>
+				<span class="price">¥189.00</span>
+				<span class="name">瑞安市盈林箱包</span>
+			</a>
+		</li>
+		<li class="uk-width-1-4">  
+			<a class="neiju"> 
+				<img src="img/goods/4b7bc804d20c4a5287648b4660a98435.jpg.400x400.jpg" />
+				<p> 韩国爱茉莉 绿吕洗发水护发乳套装450g+450ml </p>
+				<span class="price">¥189.00</span>
+				<span class="name">瑞安市盈林箱包</span> 
+			</a>
+		</li>
+		<li class="uk-width-1-4">
+			<a class="neiju"> 
+				<img src="img/goods/4b7bc804d20c4a5287648b4660a98435.jpg.400x400.jpg" />
+				<p> 韩国爱茉莉 绿吕洗发水护发乳套装450g+450ml </p>
+				<span class="price">¥189.00</span>
+				<span class="name">瑞安市盈林箱包</span>
+			</a>
+		</li>
+		<li class="uk-width-1-4">
+			<a class="neiju"> 
+				<img src="img/goods/4b7bc804d20c4a5287648b4660a98435.jpg.400x400.jpg" />
+				<p> 韩国爱茉莉 绿吕洗发水护发乳套装450g+450ml </p>
+				<span class="price">¥189.00</span>
+				<span class="name">瑞安市盈林箱包</span> 
+			</a>
+		</li>
+		<li class="uk-width-1-4">
+			<a class="neiju"> 
+				<img src="img/goods/4b7bc804d20c4a5287648b4660a98435.jpg.400x400.jpg" />
+				<p> 韩国爱茉莉 绿吕洗发水护发乳套装450g+450ml </p>
+				<span class="price">¥189.00</span>
+				<span class="name">瑞安市盈林箱包</span> 
+			</a>
+		</li>
+		<li class="uk-width-1-4">
+			<a class="neiju"> 
+				<img src="img/goods/4b7bc804d20c4a5287648b4660a98435.jpg.400x400.jpg" />
+				<p> 韩国爱茉莉 绿吕洗发水护发乳套装450g+450ml </p>
+				<span class="price">¥189.00</span>
+				<span class="name">瑞安市盈林箱包</span> 
+			</a>
+		</li>
+		<li class="uk-width-1-4"> 
+			<a class="neiju"> 
+				<img src="img/goods/4b7bc804d20c4a5287648b4660a98435.jpg.400x400.jpg" />
+				<p> 韩国爱茉莉 绿吕洗发水护发乳套装450g+450ml </p>
+				<span class="price">¥189.00</span>
+				<span class="name">瑞安市盈林箱包</span> 
+			</a>
+		</li>
+		<li class="uk-width-1-4">
+			<a class="neiju"> 
+				<img src="img/goods/4b7bc804d20c4a5287648b4660a98435.jpg.400x400.jpg" />
+				<p> 韩国爱茉莉 绿吕洗发水护发乳套装450g+450ml </p>
+				<span class="price">¥189.00</span>
+				<span class="name">瑞安市盈林箱包</span> 
+			</a>
+		</li>
+	</ul>
+</div>  	 	 
+<div id="footcont">
+	<div class="footop">
+		<ul>
+			<li><img src="img/bottom1.png" /><p><span>正品保证</span><em>正品行货 放心选购</em></p></li>
+			<li><img src="img/bottom2.png" /><p><span>闪电发货</span><em>极速发货 减少等待</em></p></li>
+			<li><img src="img/bottom3.png" /><p><span>售后无忧</span><em>7天无理由退换货</em></p></li>
+			<li><img src="img/bottom4.png" /><p><span>准时到达</span><em>极速物流 极速到达</em></p></li>
+		</ul>
+	</div>
+	<div class="foot">
+		<ul>	
+			<li>
+				<h3>关于我们</h3>
+				<a href="contact-us-a.html">公司简介</a>
+				<a href="contact-us-b.html">联系我们</a>
+				<a href="contact-us-c.html">诚聘英才</a>
+			</li>
+			<li>
+				<h3>我要购物</h3>
+				<a href="shop-a.html">购物流程</a>
+				<a href="shop-b.html">积分规则</a>
+				<a href="shop-c.html">关于发票</a>
+			</li>
+			<li>
+				<h3>商家入驻</h3>
+				<a href="merchant-a.html">线上入驻</a>
+				<a href="merchant-b.html">商家政策</a>
+				<a href="merchant-c.html">常见问题</a>
+			</li>
+			<li>
+				<h3>付款方式</h3>
+				<a href="pay-a.html">积分兑换</a>
+				<a href="pay-b.html">账号余额</a>
+			</li>
+			<li>
+				<h3>关于配送</h3>
+				<a href="sign.html">如何签收</a>
+			</li>
+			<li>
+				<h3>售后服务</h3>
+				<a href="after-sale-a.html">退换货原则</a>
+				<a href="after-sale-b.html">如何退款</a>
+				<a href="after-sale-c.html">退换货流程</a>
+			</li>
+			<li>
+				<h3>购物保障</h3>
+				<a href="safe-a.html">正品保证</a>
+				<a href="safe-b.html">用户协议</a>
+				<a href="safe-c.html">隐私保护</a>
+				<a href="safe-d.html">免责声明</a>
+			</li>
+		</ul>
+	</div>
+	<h1>浙江昊丰文化发展有限公司 Copyright © 2017 zhongdamall.com  众大商城版权所有  浙ICP备17004287号</h1>
+	<div class="footbtna">
+		<a href="https://www.alipay.com/"><img src="img/footer_alipay.png" /></a>
+		<a href="https://pay.weixin.qq.com/index.php/core/home/login?return_url=%2F"><img src="img/footer_weixin_pay.png" /></a>
+		<a href="https://www.95516.com/static/union/pages/index/index.html"><img src="img/footer_bank.png" /></a>
+		<a href="http://www.abchina.com/cn/"><img src="img/agricultural_bank.png" /></a>
+		<a href="http://si.trustutn.org/info?sn=704170420027937216590&certType=1"><img src="img/footer_sureweb.png" /></a>
+		<a href="https://credit.cecdc.com/CX20170519038131800198.html"><img src="img/cert.png" /></a>
+	</div>
+</div>
+<div id="floatewm">
+	<p><span class="floater"><img src="img/PublicNumber.jpg" /><em>微信公众号</em></span></p>
+	<a href="#top"></a>
+</div>
+<div id="floatname">
+	<p><img src="img/Imgesbyheard.png" /><a href="vip-center.html">个人中心</a><a href="login.html" style="display:none">请登录</a></p>
+	<div class="floatnamea">
+		<a href="attention-collect.html"><img src="img/guangzhuicon.png" />我的关注</a>
+		<a href="attention-collect.html"><img src="img/shouchangicon.png" />我的收藏</a>
+		<a href="shopcar.html"><img src="img/shopcart.png" />购物车</a>
+	</div>
+</div>
+<script src="js/cart.js"></script>
+<!--边栏导航-->
+<script src="js/indexfloat.js"></script>
+<script src="js/detailch.js"></script>
+<script>
+$('.ui-choose').ui_choose();
+</script>
+<script>
+	$(".attention").click(function(){
+		$('.succeed1').show(400).delay(200).hide(300);
+		})
+	$(".attention1").click(function(){
+		$('.succeed').show(400).delay(200).hide(300);
+		})
+	$(".shopcar").click(function(){
+		$('.succeed2').show(400).delay(200).hide(300);
+		})
+
+</script>
+</body>
+</html>

@@ -1,0 +1,161 @@
+﻿body {
+}
+
+.shoplogo {
+    max-width: 100px;
+    height: 100px;
+    border: 1px solid #eeeeee;
+    float: left;
+    line-height: 100px;
+    overflow: hidden;
+}
+
+.mzz {
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+.phoneaddress {
+    font-size: 14px;
+    color: #999999;
+    width: 100%;
+    float: left;
+}
+
+.botton {
+    width: 98px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    border: 1px solid #999999;
+    border-radius: 5px;
+    color: #333333;
+    background: #fff;
+    float: left;
+    cursor: pointer;
+    margin: 0 40px;
+    margin-bottom: 14px;
+}
+
+.botton_two {
+    width: 100px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    border: 1px solid #de2e01;
+    border-radius: 5px;
+    color: #fff;
+    background: #de2e01;
+    float: left;
+    margin-top: 15px;
+}
+
+.add_class {
+    background: #d0121b;
+    color: #fff;
+    border: 1px solid #de2e01;
+}
+
+.img_shop {
+    width: 180px;
+    height: 210px;
+    border: 1px solid #e6e6e6;
+    float: right;
+}
+
+.img_shopt {
+    width: 180px;
+    height: 210px;
+    float: left;
+    margin-right: 10px;
+    border: solid 0px #e50013;
+}
+
+    .img_shopt .imgbox {
+        width:100%;
+        cursor: pointer;
+    }
+	.img_shopt .imgbox img {
+		max-width:100%;
+		border:0;
+		display:inline;
+       	height:auto;
+		box-sizing:border-box;
+		vertical-align:middle;
+    }
+
+    .img_shopt:hover {
+        border: solid 1px #e50013;
+        width: 178px;
+        height: 208px;
+    }
+
+.price {
+    line-height: 30px;
+    padding-left: 10px;
+    color: #e50013;
+    background: #fff;
+}
+
+.bor_down {
+    width: 1200px;
+    height: 30px;
+    float: left;
+}
+
+.bor_more {
+    line-height: 30px;
+    float: right;
+    width: 60px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.title_a {
+    font-size: 16px;
+    color: #2e4571;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    width: 240px;
+    cursor: pointer;
+}
+
+.title_b {
+    color: #333;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    margin-top: 0px;
+    margin-bottom: 18px;
+    height: 33px;
+    cursor: pointer;
+}
+
+    .title_b:hover {
+        color: #e50013;
+    }
+
+.title_a:hover {
+    text-decoration: underline;
+    color: #de2e01;
+}
+
+.GoShoppage {
+    color: #333;
+    text-decoration: underline;
+	 font-size:13px;
+}
+
+    .GoShoppage:hover {
+        color: #e50013;
+        text-decoration: underline;
+    }
+
+.leftbox {
+    background-image: url(/Lib/Image/logobg.png);
+    width: 180px;
+    height: 210px;
+    text-align: center;
+    overflow: hidden;
+}

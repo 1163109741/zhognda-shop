@@ -1,0 +1,8 @@
+﻿.fixed_ContactMethod {width:100%;border-bottom:1px solid #cbcbcb;margin-bottom:50px;}
+.fixed_ContactMethod ul {margin-left:0px;}
+.fixed_ContactMethod ul li {padding-left:45px;padding-right:75px;padding-top:42px;padding-bottom:35px;}
+.fixed_ContactMethod ul li img {float:left;margin-right:18px;}
+.fontByBold {font-size:16px;color:#333;font-weight:bold}
+.fixed_ContactMethod ul li dl dd {text-align:left;line-height:22px;}
+.fontBySanme {color:#999;font-size:12px;}
+.fixed_ContactMethod ul li span:last-child {color:#999;font-size:12px;float:left;margin-left:28px;margin-top:-14px;}

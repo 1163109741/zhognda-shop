@@ -1,0 +1,118 @@
+﻿/*.RightByFix{
+    position:fixed;
+    top:0;
+    right:0;
+    width:200px;
+    height:auto;
+    padding-top:699px;
+    z-index:9999
+}*/
+.Right_box{
+    width:140px;
+    height:40px;
+    line-height:40px;
+    background:#e50013;
+   cursor:pointer;
+    padding:0px 10px;
+    /*position:relative;
+    top:0;*/
+}
+.RightByTOP{
+    position:fixed;
+    bottom:250px;
+    right:40px;
+        z-index:999;
+}
+
+#RightByBox{
+    position:fixed;
+    bottom:150px;
+    right:40px;
+    z-index:999;
+}
+.Right_box .Heard_img{
+    width:28px;
+    height:28px;
+    border-radius:50%;
+    background:#ffffff;
+    vertical-align:middle;
+    margin-top:6px;
+    margin-right:10px;
+    overflow:hidden;
+}
+.Right_box .Heard_img img{
+    width:100%;
+    margin-top:-14px
+}
+.Right_box .TextByText{
+    color:#fff;
+    font-size:14px;
+}
+.TextByText .ShoppingNum{
+   width:30px;
+   line-height:14px;
+   height:14px;
+   display:block;
+    border-radius:5px;
+    background:#fff;
+    font-size:12px;
+    color:#e50013;
+    margin-left:10px;
+    float:left;
+    text-align:center;
+    margin-top:13px;
+}
+.Right_box .TextByText i{
+    color:#fff;
+    float:right;
+    line-height:40px;
+}
+ .RightByUL{
+    background:#fff;
+    border:1px solid #dcdcdc;
+    width:158px;
+    display:none;
+    padding:0
+}
+.RightByTOP{
+    margin-bottom:30px;
+    float:right;
+}
+.RightByTOP div:first-child{
+    border-bottom:none;
+}
+.RightByTOP div{
+    width:30px;
+    height:30px;
+    border:1px solid #dcdcdc;
+    line-height:30px;
+    background:#fff;
+    /*float:right;*/
+}
+ .RightByTOP div img {
+       margin:0 3px;
+       vertical-align:middle;
+       line-height:30px;
+       cursor:pointer;
+    }
+.RightByUL li{
+    padding:0 18px;
+    height:30px;
+    line-height:30px;
+    font-size:12px;
+    display:block;
+    color:#333;
+    cursor:pointer;
+}
+    .RightByUL li:hover {
+        background:#dcdcdc
+    }
+ .RightByUL li img{
+   margin-right:14px;
+}
+ .RightByUL li i{
+    color:#333;
+    float:right;
+    font-size:20px;
+    line-height:30px;
+}

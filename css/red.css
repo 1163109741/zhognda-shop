@@ -1,0 +1,115 @@
+.circle {
+	width: 30px;
+	height: 30px;
+	color: #FFFFFF;
+	line-height: 30px;
+	border-radius: 30px;
+	text-align: center;
+	float: left;
+	position: relative;
+	background: #CACACA;
+}
+.uk-width{
+	width: 1100px;
+	overflow:hidden;
+	margin: 0 auto;
+	}
+.uk-width-1-2left{
+	float:left;
+	margin: 30px 5px;
+	}
+.uk-width-1-2right{
+	float:right;
+	margin: 30px 40px;
+	}
+.typeface {
+	position: absolute;
+	top: 45px;
+	font-size: 10px;
+	width: 60px;
+	text-align: center;
+	left: -15px;
+	height: 14px;
+	line-height: 15px;
+	color: #CACACA;
+}
+.Line1 {
+	position: absolute;
+	top: 8px;
+	font-size: 6px;
+	background-color: #E50013;
+	width: 130px;
+	text-align: center;
+	right: 30px;
+	height: 2px;
+	border: none;
+}
+.Line2 {
+	position: absolute;
+	top: 8px;
+	font-size: 6px;
+	background-color: #CACACA;
+	width: 130px;
+	text-align: center;
+	left: 30px;
+	height: 2px;
+	border: none;
+}
+.dakuabg {
+	background-color: #F7F7F7;
+	border: none;
+	margin-top: 30px;
+}	
+.Subtitle {
+	margin: 0;
+	text-align: center;
+	font-size: 30px;
+	color: #ADADAD;
+}
+.paixu {
+	width: 1100px;
+	overflow: hidden;
+	margin: 30px auto;
+}
+.uk-width-1-1{
+	width: 1100px;
+	overflow:hidden;
+	margin: 30px auto;
+	}
+.uk-width-1-4 {
+	float:right;
+	overflow: hidden;
+	width: 23%;
+	margin: 0 1% 30px 1%;
+}
+
+.neiju {
+	text-align: center;
+	overflow: hidden;
+	background: #fff;
+	display: block;
+}
+.neiju img {
+	width: 100%;
+	height: auto;
+}
+.neiju p {
+	text-align: left;
+	margin: 15px 25px 20px;
+	font-size:14px;
+}
+.neiju .price {
+	display: inline-block;
+	margin: 5px 25px 20px;
+	float: left;
+	font-size:15px;
+	color: #E50013;
+}
+.neiju .name {
+	display: inline-block;
+	margin: 5px 20px 0;
+	float: right;
+	font-size:13px;
+	color: #909090;
+}
+

@@ -1,0 +1,62 @@
+﻿.bigbox .uk-width-6-10 {
+    padding-left:150px;
+    padding-top:29px;
+}
+
+.bigbox .uk-width-6-10  div input{
+    border:1px solid #de2e01;
+    width:500px;
+    height:30px;
+    line-height:30px;
+    float:left;
+    padding-left:10px;
+}
+.bigbox .uk-width-6-10 span{
+  display:block;
+  width:70px;
+  height:32px;
+  background:#de2e01;
+  color:#fff;
+  line-height:30px;float:left;
+  text-align:center;
+}
+.bigbox .uk-width-6-10 ul{
+    margin:0px;
+}
+.bigbox .uk-width-6-10 ul li{
+   float:left;
+   margin-right:8px;
+   color:#999;
+   margin-top:8px;
+   cursor:pointer;
+}
+.bigbox .last_shopcart{
+    padding-top:29px;
+}
+.bigbox .last_shopcart div{
+    width:80px;
+    height:30px;
+    line-height:30px;
+    color:#333333;
+    position:relative;
+    border:1px solid #dbdbdb;
+    float:right;
+ padding:0px 26px 0px 9px;
+ cursor:pointer;
+}
+    .bigbox .last_shopcart div span {
+        margin-left:11px;
+    }
+.bigbox .last_shopcart div i{
+    background:#de0101;
+    width:15px;
+    height:15px;
+    border-radius:50%;
+    color:#fff;
+    position:absolute;
+    right:10px;
+    top:8px;
+    text-align:center;
+    line-height:15px;
+    font-family:Arial
+}

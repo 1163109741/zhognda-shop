@@ -1,0 +1,17 @@
+﻿body {padding: 0px;margin: 0px;}
+.top {width: 1200px;margin: 0px auto;height: 100px;line-height: 100px;}
+	.top img {vertical-align: middle;}
+	.Welcome{line-height: 60px; height: 60px; color: #333333; font-size: 18px; font-family: 微软雅黑; border-left: 1px solid #c2c2c2; position: relative; left: 270px; top: -80px; padding-left: 20px; }
+.subject{width: 1200px;margin: 0px auto;height: 481px;line-height: 481px;}
+.subject img {vertical-align: middle;}
+.Signin {left: 67%;top: 164px;position: absolute;width: 380px;height: 350px;box-shadow: 1px 1px 5px #999;background: #fff;border-radius: 3px;}
+	.Signin div{text-align:center;}
+		.Signin div input {width: 255px;padding: 10px;border-radius: 3px;border: 1px solid #999999;font-size: 16px;margin-right:30px;}
+.login{width:300px;height:40px;border-radius: 5px;line-height:40px;background:#e60122;font-weight: bold;font-family: 微软雅黑; font-size: 18px;color: #fff; margin:40px auto;box-shadow: 0px 5px 0px #c1001c;cursor:pointer;}
+.top_goods{height: 45px;line-height: 45px; background: #f7f7f7; color: #e60122; font-family: 微软雅黑; font-size: 18px; font-weight: bold; }
+.UserName,.Password{position:relative;left:30px;top:5px;}
+.bottom_goods{margin-top: 29px; color: #999999; font-size:14px;font-family:微软雅黑;}
+.forgetPass{margin-left: 40px; float: left; cursor: pointer;color:#333}
+.register{margin-right: 40px; float: right; cursor: pointer; color: #2e96ee;}
+.register:hover{text-decoration:underline}
+.login-alert{width:180px;height:50px;background:#FF9900;box-shadow:0 0 10px #ddd;line-height:50px;font-size:16px;color:#fff;position:fixed;top:30px;left:50%;margin-left:-70px;text-align:center;display:none}

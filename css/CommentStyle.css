@@ -1,0 +1,29 @@
+﻿.uk-modal .uk-panel-box span {
+    padding-top:10px;
+    line-height:25px;
+    font-size:14px;
+    color:#999;
+}
+.uk-modal .uk-panel-box h3{
+    color:#333333;
+    font-family:"微软雅黑"
+}
+.uk-modal .imgFixmask{
+    width: 248px; height: 180px; background: #000; position: absolute; top: 0px; left: 0px;opacity:0.6;display:none
+}
+.uk-modal .clickCenter{
+    width: 144px; height: 55px; border: 2px solid #fff; border-radius: 8px; position: absolute; top: 57px; left: 50px;color:#fff;font-weight:bold;line-height:55px;display:none;cursor:pointer
+}
+.uk-modal .clickCenter:hover{
+    background-color:rgba(255,255,255,0.3); 
+}
+.choiceshop{
+    color: #bd0413;font-size:30px;font-weight:bold;margin-bottom:30px;margin-left:85px;line-height:35px;overflow:hidden;
+}
+.choiceshop .redlineshop{
+    background: #bd0413;width:80px;height:3px;float:left;margin-top:18px;
+}
+.Column_img img{
+    height:190px;
+    cursor:pointer;
+}

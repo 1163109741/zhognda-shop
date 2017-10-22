@@ -1,0 +1,13 @@
+﻿body {padding: 0px;margin: 0px;}
+.top {width: 1200px;margin: 0px auto;height: 100px;line-height: 100px;}
+.top img {vertical-align: middle;}
+.Welcome {line-height: 60px;height: 60px;color: #333333;font-size: 18px;border-left: 1px solid #c2c2c2;position: relative;left: 270px;top: -80px;padding-left: 20px;}
+.line {margin-top: 37px;height: 69px;line-height: 69px;color: #e60122;font-size: 24px;border-bottom: 2px solid #e60122;width: 1000px;margin: 0px auto;padding-left: 57px;margin-bottom: 35px;}
+.Log_in {color: #666666;font-size: 16px;float: right;padding-right: 39px;cursor: pointer;}
+.subject {width: 1000px;margin: 0px auto;}
+.subject_name {width: 81px;height: 64px;line-height: 70px;color: #333333;font-size: 16px;text-align: left;list-style-type: none;margin-left: 250px;margin-top: 20px;}
+.subject_input {width: 301px;height: 42px;line-height: 42px;font-size: 16px;text-align: left;float: right;margin-right: 295px;
+margin-top: 24px;padding-left:15px;border-radius: 3px;border:1px solid #eaeaea;}
+.login{width:320px;height:44px;border-radius: 3px;line-height:44px;background:#e60122;font-weight: bold;font-size: 18px;color: #fff; margin:40px auto;cursor:pointer;margin-top:546px;text-align:center;}
+#Region{margin-left: 387px; margin-top: 28px; float: left;}
+#Region select {border: solid 1px #eaeaea;height:35px;line-height:35px;font-size: 13px;padding: 0 5px;width: 97px;background: white;color: #333333;}
